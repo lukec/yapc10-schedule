@@ -1,95 +1,163 @@
-  body {
-    background:#222 none repeat scroll 0 0;
-    color:#666;
-    font-family:Helvetica;
-    font-size:72%;
-    line-height:1.5em;
-    margin:0;
-    border-top:1px solid #393939;
-  }
+body {
+	background: url(images/background.png);
+	color:#666;
+	font-family:Helvetica;
+	font-size:72%;
+	line-height:1.5em;
+	margin:0;
+	border-top:1px solid #393939;
+}
 
-  #info{
-    background:#ffa;
-    border: 1px solid #ffd324;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    clear:both;
-    margin:15px 6px 0;
-    width:295px;
-    padding:4px 0px 2px 10px;
-  }
-  
-  #info > h4{
-    font-size:.95em;
-    margin:5px 0;
-  }
- 	
-  #stage.theme{
-    padding-top:3px;
-  }
+a {
+	color: #fff;
+}
 
-  /* Definition List */
-  #stage.theme > dl{
-  	padding-top:10px;
-  	clear:both;
-  	margin:0;
-  	list-style-type:none;
-  	padding-left:10px;
-  	overflow:auto;
-  }
+h3 {
+	color: #999;
+}
 
-  #stage.theme > dl > dt{
-  	font-weight:bold;
-  	float:left;
-  	margin-left:5px;
-  }
+/*-------------------------------------------------------
 
-  #stage.theme > dl > dd{
-  	width:45px;
-  	float:left;
-  	color:#a87;
-  	font-weight:bold;
-  }
+Tabs
 
-  /* Content Styling */
-  #stage.theme > h1, #stage.theme > h2, #stage.theme > p{
-    margin:1em 0 .5em 13px;
-  }
+-------------------------------------------------------*/
 
-  #stage.theme > h1{
-    color:#eee;
-    font-size:1.6em;
-    text-align:center;
-    margin:0;
-    margin-top:15px;
-    padding:0;
-  }
+#tabbar {
+	height: 56px;
+	background: url(images/tab_background.png) repeat-x;
+}
 
-  #stage.theme > h2{
-  	clear:both;
-    margin:0;
-    padding:3px;
-    font-size:1em;
-    text-align:center;
-  }
+#friday {
+	display: none;
+}
 
-  /* Stage Buttons */
-  #stage.theme a.btn{
-  	border: 1px solid #555;
-  	-webkit-border-radius: 5px;
-  	border-radius: 5px;
-  	text-align:center;
-  	display:block;
-  	float:left;
-  	background:#444;
-  	width:150px;
-  	color:#9ab;
-  	font-size:1.1em;
-  	text-decoration:none;
-  	padding:1.2em 0;
-  	margin:3px 0px 3px 5px;
-  }
-  #stage.theme a.btn.large{
-  	width:308px;
-  	padding:1.2em 0;
-  }
+.tab {
+	background: url(images/tab_disabled.png) no-repeat;
+	float: left;
+	width: 64px;
+	height: 38px;
+	padding: 18px 6px 0 6px;
+	text-align: center;
+	color: #bbb;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.tab.selected {
+	background: url(images/tab.png) no-repeat;
+	color: #fff;
+}
+
+.tab.twittertab {
+	background: 
+		url(images/tweet_icon_gray.png) no-repeat center center,
+		url(images/tab_disabled.png) no-repeat;
+}
+
+.tab.twittertab.selected {
+	background: 
+		url(images/tweet_icon.png) no-repeat center center,
+		url(images/tab.png) no-repeat;
+}
+
+/*-------------------------------------------------------
+
+Feedbar / Header
+
+-------------------------------------------------------*/
+
+#feedbar {
+	background: 
+		url(images/header_left.png) no-repeat top left,
+		url(images/header_right.png) no-repeat top right,
+		url(images/header_tile.png) repeat-x;
+	height: 37px;
+	padding-top: 12px;
+}
+#feedbar .content{
+	padding: 4px 12px 0 12px;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+}
+#info .nitobi.content {
+	padding: 48px;
+	text-align: center;
+	color: #fff;
+}
+
+/*-------------------------------------------------------
+
+List
+
+-------------------------------------------------------*/
+.datetime {
+	font-size: 24px;
+	line-height: 48px;  	    	
+	color: #fff;
+	height: 48px;
+	padding-left: 46px;
+	background:
+		url(images/bar_left.png) no-repeat top left,
+		url(images/bar_right.png) no-repeat top right,
+		url(images/bar_tile.png) repeat-x;
+}
+
+.item {
+	height: 34px;
+	background: url(images/pattern_red.png) repeat-x top left;
+	padding: 11px 8px;
+}
+.item2 {
+	background-image: url(images/pattern_green.png);
+}
+.item3 {
+	background-image: url(images/pattern_blue.png);
+}
+
+.title {
+	font-size: 14px;
+	font-weight: bold;
+	height: 16px; 
+	overflow:hidden;
+	color: #fff;
+}
+
+.talks {
+	display: none;
+	height: 0%;
+}
+
+
+#thursday ul, #friday ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#thursday ul li, #friday ul li {
+	list-style-type: none;
+	list-style-position: inside;
+	margin-left: 0px;
+}
+
+.description {
+	color: #fff;
+	font-size: 12px;
+}
+
+.tweet {
+	color: #333;
+	background: #aaa;
+	border: #ccc solid 1px;
+	border-bottom-color: #666;
+	border-left-color: #bbb;
+	border-right-color: #999;
+	padding: 4px 8px;
+}
+.tweet .author {
+	font-weight: bold;
+}
+.tweet a{
+	color: #333;
+	text-decoration: underline;
+}
