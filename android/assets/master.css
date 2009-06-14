@@ -1,19 +1,19 @@
 body {
-	background: url(images/background.png);
-	color:#666;
-	font-family:Helvetica;
-	font-size:72%;
-	line-height:1.5em;
-	margin:0;
-	border-top:1px solid #393939;
+    background: url(images/background.png);
+    color:#666;
+    font-family:Helvetica;
+    font-size:72%;
+    line-height:1.5em;
+    margin:0;
+    border-top:1px solid #393939;
 }
 
 a {
-	color: #fff;
+    color: #fff;
 }
 
 h3 {
-	color: #999;
+    color: #999;
 }
 
 /*-------------------------------------------------------
@@ -23,41 +23,41 @@ Tabs
 -------------------------------------------------------*/
 
 #tabbar {
-	height: 56px;
-	background: url(images/tab_background.png) repeat-x;
+    height: 56px;
+    background: url(images/tab_background.png) repeat-x;
 }
 
 #friday {
-	display: none;
+    display: none;
 }
 
 .tab {
-	background: url(images/tab_disabled.png) no-repeat;
-	float: left;
-	width: 64px;
-	height: 38px;
-	padding: 18px 6px 0 6px;
-	text-align: center;
-	color: #bbb;
-	font-weight: bold;
-	font-size: 14px;
+    background: url(images/tab_disabled.png) no-repeat;
+    float: left;
+    width: 64px;
+    height: 38px;
+    padding: 18px 6px 0 6px;
+    text-align: center;
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .tab.selected {
-	background: url(images/tab.png) no-repeat;
-	color: #fff;
+    background: url(images/tab.png) no-repeat;
+    color: #fff;
 }
 
 .tab.twittertab {
-	background: 
-		url(images/tweet_icon_gray.png) no-repeat center center,
-		url(images/tab_disabled.png) no-repeat;
+    background: 
+            url(images/tweet_icon_gray.png) no-repeat center center,
+            url(images/tab_disabled.png) no-repeat;
 }
 
 .tab.twittertab.selected {
-	background: 
-		url(images/tweet_icon.png) no-repeat center center,
-		url(images/tab.png) no-repeat;
+    background: 
+            url(images/tweet_icon.png) no-repeat center center,
+            url(images/tab.png) no-repeat;
 }
 
 /*-------------------------------------------------------
@@ -67,23 +67,23 @@ Feedbar / Header
 -------------------------------------------------------*/
 
 #feedbar {
-	background: 
-		url(images/header_left.png) no-repeat top left,
-		url(images/header_right.png) no-repeat top right,
-		url(images/header_tile.png) repeat-x;
-	height: 37px;
-	padding-top: 12px;
+    background: 
+        url(images/header_left.png) no-repeat top left,
+        url(images/header_right.png) no-repeat top right,
+        url(images/header_tile.png) repeat-x;
+    height: 37px;
+    padding-top: 12px;
 }
 #feedbar .content{
-	padding: 4px 12px 0 12px;
-	color: #fff;
-	text-align: center;
-	font-size: 18px;
+    padding: 4px 12px 0 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
 }
 #info .nitobi.content {
-	padding: 48px;
-	text-align: center;
-	color: #fff;
+    padding: 48px;
+    text-align: center;
+    color: #fff;
 }
 
 /*-------------------------------------------------------
@@ -92,72 +92,72 @@ List
 
 -------------------------------------------------------*/
 .datetime {
-	font-size: 24px;
-	line-height: 48px;  	    	
-	color: #fff;
-	height: 48px;
-	padding-left: 46px;
-	background:
-		url(images/bar_left.png) no-repeat top left,
-		url(images/bar_right.png) no-repeat top right,
-		url(images/bar_tile.png) repeat-x;
+    font-size: 24px;
+    line-height: 48px;  	    	
+    color: #fff;
+    height: 48px;
+    padding-left: 46px;
+    background:
+        url(images/bar_left.png) no-repeat top left,
+        url(images/bar_right.png) no-repeat top right,
+        url(images/bar_tile.png) repeat-x;
 }
 
 .item {
-	height: 34px;
-	background: url(images/pattern_red.png) repeat-x top left;
-	padding: 11px 8px;
+    height: 34px;
+    background: url(images/pattern_red.png) repeat-x top left;
+    padding: 11px 8px;
 }
 .item2 {
-	background-image: url(images/pattern_green.png);
+    background-image: url(images/pattern_green.png);
 }
 .item3 {
-	background-image: url(images/pattern_blue.png);
+    background-image: url(images/pattern_blue.png);
 }
 
 .title {
-	font-size: 14px;
-	font-weight: bold;
-	height: 16px; 
-	overflow:hidden;
-	color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px; 
+    overflow:hidden;
+    color: #fff;
 }
 
 .talks {
-	display: none;
-	height: 0%;
+    display: none;
+    height: 0%;
 }
 
 
 #thursday ul, #friday ul {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #thursday ul li, #friday ul li {
-	list-style-type: none;
-	list-style-position: inside;
-	margin-left: 0px;
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 0px;
 }
 
 .description {
-	color: #fff;
-	font-size: 12px;
+    color: #fff;
+    font-size: 12px;
 }
 
 .tweet {
-	color: #333;
-	background: #aaa;
-	border: #ccc solid 1px;
-	border-bottom-color: #666;
-	border-left-color: #bbb;
-	border-right-color: #999;
-	padding: 4px 8px;
+    color: #333;
+    background: #aaa;
+    border: #ccc solid 1px;
+    border-bottom-color: #666;
+    border-left-color: #bbb;
+    border-right-color: #999;
+    padding: 4px 8px;
 }
 .tweet .author {
-	font-weight: bold;
+    font-weight: bold;
 }
 .tweet a{
-	color: #333;
-	text-decoration: underline;
+    color: #333;
+    text-decoration: underline;
 }
