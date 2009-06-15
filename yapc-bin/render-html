@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use YAML qw/LoadFile/;
+use Template;
+
+my $data = LoadFile('yapc10.yaml');
+$data->{monday}    = $data->{'2009-06-22'};
+$data->{tuesday}   = $data->{'2009-06-23'};
+$data->{wednesday} = $data->{'2009-06-24'};
+$data->{days} = [qw/monday tuesday wednesday/];
+for my $day (@{ $data->{days} }) {
+    for my $timeslot (@{ $data->{$day} }) {
+        $timeslot->{id} = $day . $timeslot->{time};
+        $timeslot->{id} =~ s/://;
+    }
+}
+
+my $template = Template->new( {
+    INCLUDE_PATH => 'template',
+    OUTPUT_PATH => 'android/assets',
+});
+
+
+$template->process('index.html', $data, 'index.html')
+    || die $template->error(), "\n";

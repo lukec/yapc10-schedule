@@ -90,7 +90,6 @@ var process_twitter = function(text) {
     x$('#twitterfeed').html(contents);
 }
 
-
 function resetAll() {
     x$('#monday').css({display: 'none'});
     x$('#tuesday').css({display: 'none'});
@@ -106,6 +105,8 @@ function resetAll() {
 }
 
 x$(window).load(function(e){ 		
+    resetAll();
+    switch_to_monday();
     x$('div.datetime').click(function(evt){show_talks(evt);});
     x$('div.title').click(function(evt){show_description(evt);});
     x$('div.montab').click(function(evt){switch_to_monday(evt);});;
