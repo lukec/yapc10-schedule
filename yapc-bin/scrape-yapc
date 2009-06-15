@@ -21,6 +21,7 @@ for my $day (@days) {
         }
     }
 };
+DumpFile('yapc10.yaml', $data);
 exit;
 
 

@@ -29,6 +29,21 @@
                     Speaker: <a href="[% s.speaker_url %]">[% s.speaker %]</a>
                   </div>
                 </div>  						
+                [%- IF s.talk.tags AND 0 %]
+                <div class="tags">
+                    [% FOREACH tag IN s.talk.tags %]
+                      <a href="http://yapc10.org/yn2009/tag/[% tag %]">[% tag %]</a>
+                    [% END %]
+                </div>
+                [% END %]
+              </li>
+            [%- ELSIF s.speaker %]
+              <li class="item item[% num %]">
+                <div class="description">
+                  <div class="speaker">
+                    Speaker: <a href="[% s.speaker_url %]">[% s.speaker %]</a>
+                  </div>
+                </div>  						
               </li>
             [%- END -%]
         [%- END -%]
