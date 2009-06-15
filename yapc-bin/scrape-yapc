@@ -1,0 +1,131 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use URI;
+use Web::Scraper;
+use YAML qw/DumpFile/;
+
+my @days = qw( 2009-06-22 2009-06-23 2009-06-24 );
+my $data = {};
+for my $day (@days) {
+    my $url = 'http://yapc10.org/yn2009/schedule?day=' . $day;
+    my $d = $data->{$day} = scrape_day($url);
+    DumpFile('yapc10.yaml', $data);
+
+    for my $timeslot (@$d) {
+        for my $key (keys %$timeslot) {
+            next unless $key =~ m/^session_/;
+            my $ses = $timeslot->{$key};
+            next unless $ses->{talk_url};
+            $ses->{talk} = scrape_talk($ses->{talk_url});
+        }
+    }
+};
+exit;
+
+
+sub scrape_day {
+    my $url = shift;
+    warn "Scraping $url\n";
+
+    my $session = scraper {
+        process 'a:nth-child(1)',
+            speaker => 'TEXT',
+            speaker_url => '@href';
+        process 'a:nth-child(2)',
+            talk => 'TEXT',
+            talk_url => '@href';
+        process '*',
+            text => 'TEXT';
+    };
+
+    my $timeslots = scraper {
+        process "td:nth-child(1)",
+            'time' => 'TEXT';
+        process "td:nth-child(2)",
+            "session_A" => $session;
+        process "td:nth-child(3)",
+            "session_B" => $session;
+        process "td:nth-child(4)",
+            "session_C" => $session;
+        process "td:nth-child(5)",
+            "session_D" => $session;
+    };
+
+    my $yapc = scraper {
+        process "table tr",
+            "timeslots[]" => $timeslots;
+        result 'timeslots';
+    };
+    my $res = $yapc->scrape( URI->new($url) );
+
+    my $bad_char = "\x{200e}";
+    my $bad_time_char = "\x{a0}";
+            use Data::Dumper;
+    $res = [
+        grep {
+            keys %{ $_->{session_A} }
+                or
+            keys %{ $_->{session_B} }
+                or
+            keys %{ $_->{session_C} }
+                or
+            keys %{ $_->{session_D} }
+        }
+        map {
+            for my $s (qw/A B C D/) {
+                my $key = "session_$s";
+                my $ses = $_->{$key};
+                exists $ses->{speaker} and $ses->{speaker} =~ s/$bad_char//g;
+                exists $ses->{talk}    and $ses->{talk}    =~ s/$bad_char//g;
+                exists $ses->{speaker_url}
+                    and $ses->{speaker_url} = $ses->{speaker_url}->as_string;
+                exists $ses->{talk_url}
+                    and $ses->{talk_url} = $ses->{talk_url}->as_string;
+
+                if ($ses->{text} and $ses->{text} =~ m/\((\d+)$bad_time_char/) {
+                    $ses->{duration} = $1;
+                }
+                delete $ses->{text};
+            }
+            exists $_->{time} and $_->{time} =~ s/$bad_time_char//g;
+            $_;
+        }
+        grep { 
+            not ($_->{session_A} and
+                not $_->{session_B} and
+                not $_->{session_C} and
+                not $_->{session_D})
+            and $_->{time};
+        }
+        @$res
+    ];
+    return $res;
+}
+
+
+sub scrape_talk {
+    my $url = shift;
+    warn "Scraping $url\n";
+
+    my $talk = scraper {
+        process "h2",
+            title => 'TEXT';
+        process "div#yui-main div a",
+            'links[]' => '@href';
+        process "div#yui-main div hr + p",
+            comment => 'TEXT';
+            
+    };
+    my $t = $talk->scrape( URI->new($url) );
+    for my $l ( @{ $t->{links} } ) {
+        $l = "$l";
+        if ($l =~ m#^\Qhttp://yapc10.org/yn2009/talks/tag/\E(.+)#) {
+            push @{ $t->{tags} }, $1;
+        }
+    }
+    delete $t->{links};
+
+    return $t;
+};
+
