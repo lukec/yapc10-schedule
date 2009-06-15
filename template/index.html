@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>YAPC::NA 10 Schedule</title>
+	  <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	  <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="xui.js"></script>
+	  <script type="text/javascript" charset="utf-8" src="app.js"></script>
+  </head>
+  <body>
+  	<div id="tabbar">
+  		<div class="montab tab selected">Mon</div>
+  		<div class="tuestab tab">Tues</div>
+  		<div class="wedstab tab">Wed</div>
+  		<div class="twittertab tab"></div>
+  		<div class="infotab tab">Info</div>
+  	</div>
+        [%- MACRO session(s, num, id) BLOCK -%]
+            [%- IF s.talk -%]
+              <li class="item item[% num %]">
+                <div class="title title[%num%]">
+                  <a href="[% s.talk_url %]">[% s.talk.title %]</a>
+                </div>
+                <div class="description">
+                  <div class="speaker">
+                    Speaker: <a href="[% s.speaker_url %]">[% s.speaker %]</a>
+                  </div>
+                </div>  						
+              </li>
+            [%- END -%]
+        [%- END -%]
+        [% FOREACH day IN days %]
+          <div id="[% day %]">  	
+            <ul>
+              [% FOREACH timeslot IN $day %]
+                <li>
+                  <div id="date_[% timeslot.id %]" class="datetime">[% timeslot.time %]</div>
+                  <div id="talks_[% timeslot.id %]" class="talks">
+                    <ul>
+                      [%- session(timeslot.session_A,'1') -%]
+                      [%- session(timeslot.session_B,'2') -%]
+                      [%- session(timeslot.session_C,'3') -%]
+                      [%- session(timeslot.session_D,'4') -%]
+                    </ul>
+                  </div>
+                </li>
+              [% END %]
+            </ul>
+  	  </div>
+        [% END %]
+  	<div id="twitter" style="display:none;">  	
+            <div id="feedbar">
+                <div class="title">Twitter search result for 'yapc'</div>
+            </div>
+            <div id="twitterfeed">
+            </div>
+	</div>
+  	<div id="info" style="display:none;">
+            <div id="feedbar">
+                <div class="title">YAPC::NA 10 Schedule</div>
+            </div>
+            <div class="content">
+                <div class="conference_links">
+                    <table class="center">
+                        <tr>
+                            <td>
+                                <a href="http://yapc10.org/yn2009/wiki">YAPC10 Wiki</a><br />
+                            </td>
+                            <td>
+                                <a href="http://twitter.com/yapc10">@yapc10</a><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://tinyurl.com/nu3fbw">Campus Map</a><br />
+                            </td>
+                            <td>
+                                <a href="http://yapc10.org/yn2009/wiki?node=GettingAround">Getting Around</a><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://yapc10.org/yn2009/wiki?node=PlacesToEatAndDrink">Eat and Drink</a><br />
+                            </td>
+                            <td>
+                                <a href="http://yapc10.org/yn2009/wiki?node=SuggestedBOFs">BOFs</a><br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="http://yapc10.org/yn2009/wiki?node=Events"></a>Events<br />
+                            </td>
+                            <td>
+                                <a href="http://yapc10.org/yn2009/wiki?node=Hackathon">Hackathons</a><br />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <p>
+                    Created by: <a href="http://twitter.com/lukec">@lukec</a><br />
+                    Special thanks to <a href="http://twitter.com/Infil00p">@infil00p</a> for the Open Web application!
+                    <p>Build using <a href="http://phonegap.com">PhoneGap</a> by Nitobi</p>
+                </p>
+            </div> 	
+	</div>
+  </body>
+</html>
