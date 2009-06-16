@@ -90,6 +90,12 @@ Feedbar / Header
     color: #fff;
 }
 
+#info .nitobi {
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+}
+
 #info .conference_links {
     font-size: 16px;
 }
