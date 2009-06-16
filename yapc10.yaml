@@ -1,0 +1,1086 @@
+---
+2009-06-22:
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 20
+      speaker: Casey West (cwest)
+      speaker_url: http://yapc10.org/yn2009/user/284
+      talk:
+        comment: ' Welcome! '
+        title: Welcome to YAPC|10
+      talk_url: http://yapc10.org/yn2009/talk/2102
+    time: 09:00AM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 50
+      speaker: Richard Dice
+      speaker_url: http://yapc10.org/yn2009/user/1446
+      talk:
+        comment: ' TPF addresses and welcomes The Perl Community at the beginning of YAPC|10! '
+        title: TPF Opening keynote
+      talk_url: http://yapc10.org/yn2009/talk/1911
+    time: 09:20AM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 50
+      speaker: Larry Wall
+      speaker_url: http://yapc10.org/yn2009/user/273
+      talk:
+        comment: ' Expect the unexpected. '
+        title: Larry Wall Keynote
+      talk_url: http://yapc10.org/yn2009/talk/2101
+    time: 10:20AM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 20
+      speaker: jerry gay (particle)
+      speaker_url: http://yapc10.org/yn2009/user/2995
+      talk:
+        comment: ' Parrot Foundation '
+        title: Parrot Foundation
+      talk_url: http://yapc10.org/yn2009/talk/2103
+    time: 11:10AM
+  - session_A:
+      duration: 50
+      speaker: Scott McWhirter (konobi)
+      speaker_url: http://yapc10.org/yn2009/user/5137
+      talk:
+        comment: " Testing a whole system can be an expensive and time consuming process, especially with a lot of the teething problems that can occur. I'll be talking about my experiences with writing high level test automation, pitfalls and traps to avoid and detail the tools involved. "
+        tags:
+          - a8n
+          - behaviour
+          - development
+          - driven
+          - fit
+          - fitesque
+          - selenium
+          - tap
+        title: Test automation for the risk adverse
+      talk_url: http://yapc10.org/yn2009/talk/1959
+    session_B:
+      duration: 50
+      speaker: Hans Dieter Pearcey (confound)
+      speaker_url: http://yapc10.org/yn2009/user/1760
+      talk:
+        comment: " CPAN is a huge source of power for Perl programmers. Various dangers can, like Kryptonite, drain this power from you. \"I'd like to use this module, but my sysadmin won't install anything that isn't in the OS package manager.\" Does this sound like you? Do not give in! Learn how to tame your operations staff using such techniques as * CPAN Distroprefs * cpan2dist, PAR, local::lib * CPAN::Mini * and more! "
+        tags:
+          - cpan
+          - maintenance
+        title: 'CPAN - A big enough lever to install the world'
+      talk_url: http://yapc10.org/yn2009/talk/1985
+    session_C:
+      duration: 50
+      speaker: Michael Schwern (Schwern)
+      speaker_url: http://yapc10.org/yn2009/user/780
+      talk:
+        comment: ' Robert put it best: "I think you have a nice bent/slant/angle etc on a lot of stuff. I want you to get people talking. And no I would not expect every talk to be about perl. It would make me sad if they were all perl. But if you do it I would hope you could get everyone in the room to get excited about something. And I hope you would bore the crap out of others. Why do I think that b/c your audience is everyone from Larry to noob. You are not going to shock both of them or bore both of them with the same stuff." '
+        tags:
+          - ego
+          - schwern
+        title: Trapped In A Room With Schwern
+      talk_url: http://yapc10.org/yn2009/talk/1960
+    session_D:
+      duration: 50
+      speaker: Patrick Michaud (Pm)
+      speaker_url: http://yapc10.org/yn2009/user/1692
+      talk:
+        comment: ' Rakudo Perl (Perl 6 on Parrot) continues to progress nicely, and new features of the language are being added all of the time. This talk jumps right to practical examples of using Perl 6 in Rakudo: * How to obtain and build the latest Rakudo Perl 6 * Variables * Contextualizers * Statements and Iterators * Basic I/O * Metaoperators (hypers, reductions, crosses) * Subroutines * Classes, methods, inheritance * Roles All of the examples in the talk will contain working Perl 6 code that can be used today in Rakudo Perl. '
+        tags:
+          - perl6
+          - rakudo
+        title: Perl 6 today
+      talk_url: http://yapc10.org/yn2009/talk/1965
+    time: 01:00PM
+  - session_A:
+      duration: 50
+      speaker: lukec
+      speaker_url: http://yapc10.org/yn2009/user/1570
+      talk:
+        comment: " We'll spend the first half of this talk talking about automated web testing - starting simple and then moving on to Business Driven Development (BDD). In the second half of the talk, Luke will show examples of how he does this with his distributed global development team at Socialtext. We'll finish up with Q&A. "
+        tags:
+          - a8n
+          - agile
+          - automation
+          - bdd
+          - selenium
+          - testing
+          - web
+        title: 'A8N-ing - Agile Web Testing'
+      talk_url: http://yapc10.org/yn2009/talk/1945
+    session_B:
+      duration: 50
+      speaker: Ricardo SIGNES (rjbs)
+      speaker_url: http://yapc10.org/yn2009/user/1634
+      talk:
+        comment: " This has been a good year for Git. More and more open source projects -- including perl5 and rakudo perl6 -- are moving their source code to Git repositories, and \"patches welcome\" is slowly being replaced with \"tell me where to pull from.\" There's been some loose talk suggesting that Git is highly complex and has a bizarre interface that makes it difficult to learn. This is completely and entirely false, mostly. This talk will explain how to get started with git, how it works, and how to think about git in order to really know what you're doing. "
+        tags:
+          - git
+          - tutorial
+        title: Git is Easy
+      talk_url: http://yapc10.org/yn2009/talk/1942
+    session_C:
+      duration: 50
+      speaker: David Fetter
+      speaker_url: http://yapc10.org/yn2009/user/2895
+      talk:
+        comment: " Remember when SQL wasn't Turing-complete? That's over now. Find out some of the amazing and frightening things that this implies, and exit the talk ready to use them. "
+        tags:
+          - cte
+          - list
+          - postgresql
+          - tree
+        title: You can do THAT without Perl?!?
+      talk_url: http://yapc10.org/yn2009/talk/2000
+    session_D:
+      duration: 50
+      speaker: Patrick Michaud (Pm)
+      speaker_url: http://yapc10.org/yn2009/user/1692
+      talk:
+        comment: " One of the coolest features of Perl 6 is its regular expression syntax, which not only does traditional pattern matching but is also expressive enough to support grammars and advanced parsing. Indeed, it's the core for writing parsers with the Parrot Compiler Toolkit. This talk provides an exploration of Perl 6 regular expressions. It describes how they are currently used in Rakudo Perl and Parrot, and how they may be used to write parsers and as the foundation for more advanced data translations. Topics include: * Basic regular expression syntax * Named subrules and captures * Regexes, tokens, and rules * Creating grammars * Attaching actions to regexes * Processing parse trees The presentation will include numerous examples that work today in Rakudo Perl. "
+        tags:
+          - compiler
+          - grammars
+          - parrot
+          - perl6
+          - pge
+          - rakudo
+          - regexes
+          - toolkit
+        title: Perl 6 regexes and grammars
+      talk_url: http://yapc10.org/yn2009/talk/1966
+    time: 01:55PM
+  - session_A: {}
+    session_B:
+      duration: 50
+      speaker: Chris Wanstrath
+      speaker_url: http://yapc10.org/yn2009/user/5241
+      talk:
+        comment: " Source control has been a neglected piece of the continuous integration puzzle for far too long. Monolithic systems such as Perforce, CVS, and Subversion force an antiquated, centralized workflow at the expense of productivity. As is often the case, many don't realize a better way exists. This talk will examine distributed source control with Git from a high level. Learn how projects and companies can benefit from Git by seeing the different workflows it introduces in action. We'll discuss how GitHub changes everything when it comes to tracking and managing open source, as well as your own team's source. Perl libraries for working with Git, alternative uses of Git, and integration points (such as the Eclipse, TextMate, Emacs, and Vim plugins) will also be touched upon. Expect to leave this talk with a working knowledge of the concepts behind distributed source control and excited about the distributed future. "
+        tags:
+          - git
+        title: 'Git: The Lean Mean Distributed Machine'
+      talk_url: http://yapc10.org/yn2009/talk/2099
+    session_C:
+      duration: 50
+      speaker: Bruce Gray (Util)
+      speaker_url: http://yapc10.org/yn2009/user/1813
+      talk:
+        comment: " Learn to combine a select handful of Perl's flags and variables, and be rewarded with faster ways of munging data and handling your day-to-day work. Perl one-liners are an extension of \"The Unix Way\", making Win32 bearable, and Unix even better. "
+        tags:
+          - command
+          - line
+          - liners
+          - one
+        title: Command-line Perl
+      talk_url: http://yapc10.org/yn2009/talk/2017
+    session_D:
+      duration: 50
+      speaker: Patrick Michaud (Pm)
+      speaker_url: http://yapc10.org/yn2009/user/1692
+      talk:
+        comment: ' “Rakudo Perl” is the Perl 6 compiler targeting the Parrot virtual machine. It currently supports much of Perl 6, and people are even beginning to write applications for it. This talk will present ways in which you (yes you!) can become active contributors to Perl 6 and Rakudo Perl. We will look in detail at the organization of the Perl 6 test suite, how to add new tests, the structure of the Rakudo Perl implementation, and where to start with writing code for Rakudo. This talk focuses heavily on Perl 6 itself, and does not include a lot of details about Parrot or its other programming languages. It will be particularly useful for people who are interested in participating in the hackathon that follows the conference, providing a "road map" of the current implementation status and where people can contribute (at many levels). '
+        tags:
+          - compiler
+          - perl6
+          - rakudo
+        title: Hacking Rakudo Perl 6
+      talk_url: http://yapc10.org/yn2009/talk/1964
+    time: 02:55PM
+  - session_A:
+      duration: 20
+      speaker: Abigail
+      speaker_url: http://yapc10.org/yn2009/user/289
+      talk:
+        comment: ' A new CPAN module to help you test your regular expressions. Until recently, CPAN did not have a module to help you test every aspect of your patterns. This talks tells you about the features of Test::Regexp. '
+        tags:
+          - expressions.
+          - regular
+          - testing
+        title: Test::Regexp
+      talk_url: http://yapc10.org/yn2009/talk/1992
+    session_B:
+      duration: 20
+      speaker: Mike Schilli
+      speaker_url: http://yapc10.org/yn2009/user/1685
+      talk:
+        comment: " Lately, there's been a landslide movement of Open Source projects to github.com. Popular CPAN modules are no exception, they're enjoying increased community contributions the moment they move over. Learn how to submit patches to CPAN authors that can be integrated fast and painlessly, and how to move your CPAN module project's revision controlled (SVN/CVS) code over to github.com. "
+        tags:
+          - cpan
+          - git
+          - github
+        title: Moving CPAN module projects to github.com
+      talk_url: http://yapc10.org/yn2009/talk/2001
+    session_C:
+      duration: 20
+      speaker: Jonathan Rockway (jrockway)
+      speaker_url: http://yapc10.org/yn2009/user/1681
+      talk:
+        comment: " You've heard about KiokuDB, but you're not quite sure how to start using it. This talk will show you how to organize your data and application code to use KiokuDB. "
+        tags:
+          - databases
+          - kiokudb
+          - moose
+          - oo
+          - oodb
+          - oop
+          - persistence
+        title: Using KiokuDB
+      talk_url: http://yapc10.org/yn2009/talk/1970
+    session_D:
+      duration: 20
+      speaker: Jeff Horwitz
+      speaker_url: http://yapc10.org/yn2009/user/2386
+      talk:
+        comment: ' The next generation of mod_perl embeds Rakudo Perl 6 inside of Apache and its basic functionality works out of the box today. But mod_perl6 still needs your help! In the first half of this talk we will discuss how to get started using mod_perl6, explore the differences from previous mod_perl versions, and demo a few simple handlers. In the second half of the talk, you will learn how you can help, diving into the internals and future goals so interested developers can start fixing bugs and adding new features. '
+        tags:
+          - apache
+          - mod_parrot
+          - mod_perl
+          - mod_perl6
+          - parrot
+          - perl6
+        title: Using and Contributing to mod_perl6 (A)
+      talk_url: http://yapc10.org/yn2009/talk/1962
+    time: 03:50PM
+  - session_A:
+      duration: 20
+      speaker: Michael Peters (mpeters)
+      speaker_url: http://yapc10.org/yn2009/user/1655
+      talk:
+        comment: " The Test Anything Protocol is beginning to spread. What started out as a solution to Perl testing problems is now being used by PHP, Postgr eSQL, C, C++, and more. It starts as a simple \"1 ok\", \"2 ok\" and then you're hooked. Seems so simple but like most starter drugs there's a more complicated underbelly.  Recently an IETF working was started to take the extisting implementations and all the extension propsals and turn them into a full standard. In this talk we'll examine the work that's been done so far. Starting with the basic building blocks (ok, not ok, comments), then some more interesting pieces (plans, pass, skip) and then into the more exciting (nested TAP, diagnostics) and experimental (logging, visualization) features. "
+        tags:
+          - tap
+          - testing
+        title: TAP in depth
+      talk_url: http://yapc10.org/yn2009/talk/2004
+    session_B:
+      duration: 20
+      speaker: Barbie
+      speaker_url: http://yapc10.org/yn2009/user/230
+      talk:
+        comment: ' A look at the way CPAN has grown and continues to grow, together with a look at the statistics produced via CPAN Testers, featuring some predictions along the way. Also a chance for you to suggest more types of data analysis and presentation charts for the CPAN Testers Statistics website. '
+        tags:
+          - cpan
+          - statistics
+        title: The Statistics of CPAN
+      talk_url: http://yapc10.org/yn2009/talk/1918
+    session_C:
+      duration: 20
+      speaker: Walt Mankowski (waltman)
+      speaker_url: http://yapc10.org/yn2009/user/1691
+      talk:
+        comment: " SQLite is the most widely deployed SQL database engine in the world. It's used throughout OS X as well as in Firefox, Google's Android, and in countless other applications. SQLite is extremely fast and lightweight, but it's lacking some features found in larger database systems. Fortunately SQLite can be easily extended with Perl. In this talk you'll learn how to write your own SQLite functions, aggregators and collators in Perl. "
+        tags:
+          - database
+          - dbi
+          - sqlite
+        title: 'SQLite Functions, Aggregators and Collators'
+      talk_url: http://yapc10.org/yn2009/talk/1993
+    session_D:
+      duration: 20
+      speaker: Jeff Horwitz
+      speaker_url: http://yapc10.org/yn2009/user/2386
+      talk:
+        comment: ' The next generation of mod_perl embeds Rakudo Perl 6 inside of Apache and its basic functionality works out of the box today. But mod_perl6 still needs your help! In the first half of this talk we will discuss how to get started using mod_perl6, explore the differences from previous mod_perl versions, and demo a few simple handlers. In the second half of the talk, you will learn how you can help, diving into the internals and future goals so interested developers can start fixing bugs and adding new features. '
+        tags:
+          - apache
+          - mod_parrot
+          - mod_perl
+          - mod_perl6
+          - parrot
+          - perl6
+        title: Using and Contributing to mod_perl6 (B)
+      talk_url: http://yapc10.org/yn2009/talk/2105
+    time: 04:15PM
+  - session_A:
+      duration: 20
+      speaker: Nathan Gray (kolibrie)
+      speaker_url: http://yapc10.org/yn2009/user/1613
+      talk:
+        comment: ' The Test Anything Protocol (TAP) is a simple interface between code to be tested and a harness that collects stats about each test. We will examine the protocol itself, mention Perl modules that help generate TAP, and discuss modules that read TAP and do useful things with the data. '
+        tags:
+          - testing
+        title: Getting the most out of TAP
+      talk_url: http://yapc10.org/yn2009/talk/1971
+    session_B:
+      duration: 20
+      speaker: Hans Dieter Pearcey (confound)
+      speaker_url: http://yapc10.org/yn2009/user/1760
+      talk:
+        comment: ' Releasing code involves a lot of busywork: POD boilerplate, Makefile.PL or Build.PL skeleton, more POD boilerplate, MANIFEST (or MANIFEST.SKIP), various copyrights and licenses, even more POD boilerplate. Dist::Zilla (dzil) handles all this busywork (and more!) and gives you a powerful framework to extend and customize your development and release process. '
+        tags:
+          - author
+          - cpan
+          - dzil
+        title: 'Dist::Zilla - Automating quality since 2008'
+      talk_url: http://yapc10.org/yn2009/talk/1986
+    session_C:
+      duration: 20
+      speaker: Clinton Wolfe
+      speaker_url: http://yapc10.org/yn2009/user/5222
+      talk:
+        comment: " I've developed an ORM (Object-Relational Mapper) for use at my day job, OmniTI.com . We're often tasked with building scalable mod_perl web database applications on short schedules. I wanted to use an ORM to cut development time, having had good experiences with other ORMs. But ORMs have a nasty reputation as leading to database-intensive code that drives your DBA up a wall. After some discussion with our CEO, Theo Schlossnagle, I hit upon a design for an ORM that would be \"reluctant\" - it would resist making hidden calls to the database, and encourage you to prefetch everything. Several other features (not unique to Class::ReluctantORM) help make it idiot-resistant and DBA-friendly. It's now in use on several large, production sites, and is in its fourth minor version. The Class::ReluctantORM namespace has been reserved on CPAN, but I haven't released it yet - the plan is to do so in mid-May, with the fifth minor version. "
+        tags:
+          - dbas
+          - dbi
+          - grumpy
+          - orm
+          - reluctance
+          - scalability
+        title: 'Class::ReluctantORM - An ORM Your DBA can Live With'
+      talk_url: http://yapc10.org/yn2009/talk/1991
+    session_D:
+      duration: 20
+      speaker: Devin Austin
+      speaker_url: http://yapc10.org/yn2009/user/5208
+      talk:
+        comment: " Perl OO is hideous and painful, right? No! Perl 5’s new (post) modern object system Moose brings Perl into the spotlight as a formidable OO language choice.. Inspired by the Common LISP Object System (CLOS), Smalltalk and the Perl 6 meta model, Moose brings deep introspection, easy delegation, a malleable type constraint system, and in short, modernizes Perl's OO system. Less code == more win! "
+        tags:
+          - moose
+        title: Intro To Moose
+      talk_url: http://yapc10.org/yn2009/talk/1967
+    time: 04:40PM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 120
+      speaker: Movie Night
+      speaker_url: http://yapc10.org/yn2009/event/587
+    time: 07:30PM
+2009-06-23:
+  - session_A:
+      duration: 50
+      speaker: Shawn Moore (Sartak)
+      speaker_url: http://yapc10.org/yn2009/user/2245
+      talk:
+        comment: " Using Moose provides many immediate and obvious benefits, starting with the obviation of typing \"use strict\" and \"use warnings\" in your classes. The real power of Moose, however, rests in its extensibility. By subclassing Moose's metaclasses, you can augment and change Moose's behavior to suit your application's needs. This extensibility is powered by the meta-object protocol of Moose's foundation, Class::MOP. The motivating example for extending Moose will be the creation of a small web framework to empower a Twitter-alike. The focus will be creating meta-level roles so that metaclasses may select exactly which changes in behavior they wish to exhibit. Modules that will be used include Moose::Exporter (to define sugary keywords) and Moose::Util::MetaRole (to extend classes composably). Experience with using Moose to create regular classes is expected. Having some familiarity with roles will let you get more out of the talk. No experience with metaprogramming is required. "
+        tags:
+          - meta
+          - metaprogramming
+          - moose
+          - mop
+          - roles
+          - traits
+          - web
+        title: Extending Moose for Applications
+      talk_url: http://yapc10.org/yn2009/talk/1880
+    session_B:
+      duration: 50
+      speaker: Matt Trout
+      speaker_url: http://yapc10.org/yn2009/user/1846
+      talk:
+        comment: " Perl has CPAN. CPAN is wonderful. But. CPAN is a source build system, and primarily designed for \"install the latest production release\". On a development server when your project's split into separate packages that doesn't work. When you're trying to test RC releases of major projects you depend upon, that doesn't work. When you want to deploy to dozens of systems which are already using their CPU for something more important, that doesn't work. There are many projects on CPAN that help with different parts of this problem, integrating CPAN mirrors and local packages, building vendor packages from perl distributions, and bundling dependencies along with applications. In this talk, Matt will attempt to cover as much of the state of the art as possible and how these fit into the different strategies available, and discuss how the varied requirements of Shadowcat's clients, in-house development, and open source contributions have led us to the desire for a unified system - and what that unified system does, how and why it does it, and some fascinating perl5 arcana uncovered along the way. "
+        tags:
+          - deployment
+          - perl
+          - perl5
+          - systems
+        title: Dependency management and deployment strategies for perl5
+      talk_url: http://yapc10.org/yn2009/talk/1975
+    session_C:
+      duration: 50
+      speaker: Christopher Nehren (apeiron)
+      speaker_url: http://yapc10.org/yn2009/user/2795
+      talk:
+        comment: ' Writing command line apps can be painful, inconsistent, and sometimes difficult to get right (not to mention repetitive and boring). Thanks to some recent developments on CPAN, this process can be smoothed out and simplified so that even mere mortals can understand it. Put enough of these cool technologies together and it even becomes fun. This talk presents how to use App::Cmd, MooseX::App::Cmd, MooseX::GetOpt, and MooseX::SimpleConfig to create commandline applications with less effort, more tests, and more fun. The audience is expected to be comfortable with Moose and the concepts of CLI programming. The focus is on working code, not theory, and people are expected and encouraged to plug in the code and ask questions. '
+        tags:
+          - app%3A%3Acmd
+          - cli
+          - command_line
+          - moose
+          - moosex%3A%3Aapp%3A%3Acmd
+          - pain_relief
+        title: CLI apps don't have to suck
+      talk_url: http://yapc10.org/yn2009/talk/2016
+    time: 08:00AM
+  - session_A:
+      duration: 50
+      speaker: chromatic
+      speaker_url: http://yapc10.org/yn2009/user/1959
+      talk:
+        comment: " It's 2009, but too much Perl code and tutorials and books are stuck in 1999. While the core may progress slowly, the CPAN is still Perl's shining gem -- and the source of solutions to countless Perl problems. The Perl community as a whole has learned tremendous lessons over the past 15 years about how to write effective, powerful, concise, and elegant code. What works in 2009 is very different from worked in 1994, or 1999, or 2004. This talk introduces some of the newer ideas, idioms, modules, and trends that you need to explore to take full advantage of all that Perl 5 has to offer in 2009. Topics covered will include testing, Moose, Devel::Declare, autodie, roles, autobox, and more. "
+        tags:
+          - development
+          - modern
+          - perl
+          - software
+        title: Take Advantage of Modern Perl
+      talk_url: http://yapc10.org/yn2009/talk/1983
+    session_B:
+      duration: 50
+      speaker: Perrin Harkins (perrin)
+      speaker_url: http://yapc10.org/yn2009/user/1636
+      talk:
+        comment: ' In the past few years, many new web proxy servers have come onto the scene with new performance promises and features. Servers based on non-blocking I/O bring claims of greatly improved performance. At the same time, FastCGI has become more widely used, giving people a possible alternative to mod_perl. This talk will help you choose the right architecture for your project by presenting a useful set of benchmarks and a comparison of strong points and key features. '
+        title: Choosing a Web Architecture for Perl
+      talk_url: http://yapc10.org/yn2009/talk/1958
+    session_C:
+      duration: 50
+      speaker: Stevan Little
+      speaker_url: http://yapc10.org/yn2009/user/1797
+      talk:
+        comment: ' ORMs are the preferred object store for discriminating hackers. However ORMs suffer from the object<->relational impedence mismatch which sometimes requires compromises in the design of your object model.  With KiokuDB, you no longer need to compomise! KiokuDB is a object graph persistence engine with several backend stores including a DBI backend that works with your favorite RDBMS.  This talk will introduce the basics of KiokuDB and then delve into a series of real-world case studies to show how KiokuDB effectively fits into more traditional applications. '
+        tags:
+          - databases
+          - dbi
+          - fey
+          - kiokudb
+          - moose
+          - oo
+          - oodb
+          - oop
+          - persistence
+        title: 'KiokuDB - A Real World Introduction'
+      talk_url: http://yapc10.org/yn2009/talk/1914
+    time: 08:55AM
+  - session_A:
+      duration: 20
+      speaker: Stevan Little
+      speaker_url: http://yapc10.org/yn2009/user/1797
+      talk:
+        comment: " Moose is in it's 3rd year and going strong. In this talk we will discuss the current state of Moose and explore both the pros and cons of introducing Moose into your codebase.  We will also delve into a couple real-world case studies to illustrate how Moose can fit into both legacy projects as well as new ones. "
+        tags:
+          - modern
+          - moose
+          - oo
+          - oop
+        title: To Moose or Not To Moose
+      talk_url: http://yapc10.org/yn2009/talk/1941
+    session_B:
+      duration: 20
+      speaker: Ricardo SIGNES (rjbs)
+      speaker_url: http://yapc10.org/yn2009/user/1634
+      talk:
+        comment: ' Ok, email is a horrible technology with impossible technical specifications, implementations that are broken in seriously incompatible ways, and massive security issues that have led to a 9:1 noise to signal ratio. It stinks and makes me want to kill. ...but who am I kidding? I love email. It presents fun challenges, and along with the web is the internet medium most used by users of all types, each with their own needs. This talk will review a few new Email:: modules developed in the last year and suitable for anybody who has to do stuff with email. Among these are Email::Sender, Email::MIME::Kit, and Email::ARF. '
+        tags:
+          - email
+        title: I <3 Email
+      talk_url: http://yapc10.org/yn2009/talk/1943
+    session_C:
+      duration: 20
+      speaker: Leonard Miller (olegm)
+      speaker_url: http://yapc10.org/yn2009/user/1817
+      talk:
+        comment: " In this talk, we will discuss the different approaches that you can take to get beyond 'beginner' or 'entry level' status in your Job and Career as a Perl developer. "
+        tags:
+          - beginner
+        title: Things you can do to stop being a n00b
+      talk_url: http://yapc10.org/yn2009/talk/1871
+    time: 09:55AM
+  - session_A:
+      duration: 50
+      speaker: Hans Dieter Pearcey (confound)
+      speaker_url: http://yapc10.org/yn2009/user/1760
+      talk:
+        comment: " Moose is a solid foundation for any project, and a lot of day-to-day needs can be met with common uses of has() and Moose's built-in Perl type constraints. But what happens when your codebase scales past that point? This talk covers the next level of Moose usage: creating your own reusable extensions, with roles, type constraints, and Moose::Exporter. "
+        tags:
+          - moose
+        title: Code Reuse with Moose
+      talk_url: http://yapc10.org/yn2009/talk/1984
+    session_B:
+      duration: 50
+      speaker: Jim Brandt
+      speaker_url: http://yapc10.org/yn2009/user/1617
+      talk:
+        comment: " In difficult financial times, all businesses are looking to do more with less. Automating repetitive tasks with computers is one way to do this. This session will discuss how to use open source tools to implement workflow using real-world examples. I'll discuss what you get with the existing Workflow.pm module, what you need to build to get things up and running, and whether it's worth it for your company. "
+        tags:
+          - bpm
+          - workflow
+        title: Business Process Management with Workflow.pm
+      talk_url: http://yapc10.org/yn2009/talk/1935
+    session_C:
+      duration: 50
+      speaker: Dave Rolsky (autarch)
+      speaker_url: http://yapc10.org/yn2009/user/1679
+      talk:
+        comment: " Yes, another ORM. I'll tell you about my latest(ish) pollution of CPAN, Fey. Fey is a tool for representing a schema as objects and using them to generate SQL programmatically. Fey::ORM is an ORM built on top of the Fey core. If you like SQL and find other ORMs too \"OO-ish\", then you might like Fey. Or just come heckle me for the hubris of uploading YA(F)ORM. "
+        tags:
+          - dbi
+          - fey
+          - modern
+          - moose
+          - oo
+          - orm
+          - sql
+        title: "Fey, Another Freakin' ORM"
+      talk_url: http://yapc10.org/yn2009/talk/1846
+    time: 10:20AM
+  - session_A: {}
+    session_B:
+      duration: 20
+      speaker: Mike Schilli
+      speaker_url: http://yapc10.org/yn2009/user/1685
+      talk:
+        comment: ' Gadgets like USB rocket launchers often come with Windows-only CDs, but can be controlled on Linux with libusb and Perl.  Learn how to write a Perl script on a Ubuntu Laptop, that turns and tilts a USB cannon, which finally fires styrofoam rockets into the audience. Live demo! '
+        tags:
+          - libusb
+        title: Driving a USB Rocket Launcher from Perl in User Space
+      talk_url: http://yapc10.org/yn2009/talk/1999
+    session_C:
+      duration: 20
+      speaker: Chris Prather (perigrin)
+      speaker_url: http://yapc10.org/yn2009/user/983
+      talk:
+        comment: " XML::Toolkit is the results of years of study, and two large production projects. It's a collection of tools to make some of the pain of integrating XML into an application go away. XML::Toolkit was designed to handle large XML document sets, to be flexible, and to produce valid clean correct XML. This talk will cover the history of the project, the various tools in the toolkit and example applications based on real-world code. "
+        tags:
+          - moose
+          - perl
+          - xml
+        title: 'XML::Toolkit: Tools to Ease the Pain'
+      talk_url: http://yapc10.org/yn2009/talk/1932
+    time: 11:15AM
+  - session_A:
+      duration: 50
+      speaker: Yuval Kogman (nothingmuch)
+      speaker_url: http://yapc10.org/yn2009/user/1798
+      talk:
+        comment: " In 2005 the Pugs project introduced many hackers including myself to Haskell, a statically typed, lazily evaluated, purely functional programming language for writing code that writes code that writes code. This conference is about Perl, a dynamically typed, procedural, side effect heavy scripting language for munging text files. Wake up! It's been 15 years since 1994, and more excitingly, it's been 4 years since 2005! Perl has recently seen some amazing developments. Perl 5 is now, more than ever, a serious language for complex projects. With this trend comes a new set of best practices for writing Modern Perl: adaptable high level code that uses state of the art tools in a modern way. At the core lies heavy use of Moose and a deep functional programming influence. I will try to share my current approach to programming Perl, shamelessly stealing from the collective wisdom of some of the smartest programmers both in and outside of the Perl community. "
+        tags:
+          - functional
+          - haskell
+          - immutable
+          - lazy
+          - modern
+          - moose
+          - oo
+          - perl
+          - pure
+        title: What Haskell did to my brain
+      talk_url: http://yapc10.org/yn2009/talk/1956
+    session_B:
+      duration: 50
+      speaker: Jonathan Rockway (jrockway)
+      speaker_url: http://yapc10.org/yn2009/user/1681
+      talk:
+        comment: " Perl changes quickly. 10 years ago, the Web was still cool, and there was Perl and CGI. Then the concept of the \"web application\" was invented, and we got mod_perl. Fast forward to the more recent past, and other languages started being \"cool\" too. Ruby had awesome syntax. PHP was sooo easy to get started with. Python made it impossible to write bad code! Perl was feeling kind of left out. Then we got Catalyst. Suddenly people realized that writing web applications didn't have to suck. We could use OO correctly! We didn't have to have heredocs with HTML in them! The real effect of Catalyst, though, was that it catalyzed (heh) the community. We realized that Perl is fun! We realized that we could try new ideas. And, since Catalyst was so productive, we had a lot of free time to come up with new cool stuff. This talk is about that cool stuff. The Perl community is moving really quickly now, and a 2007 \"modern Perl web app\" is not the same as a 2009 modern web app. This talk will show you some new modules and projects that make writing web applications fun. We'll look at some cool modules, like Catalyst, Moose, KiokuDB, JSORB, Bread::Board, HTTP::Engine, Devel::Declare, etc. So this talk will show you what a new web app started in 2009 might look like, and how you can take pieces of it and put it in your older web application. Perl is fun! "
+        tags:
+          - catalyst
+          - enlightened
+          - kiokudb
+          - modern
+          - modules
+          - moose
+          - naked
+          - not
+          - web
+        title: Web Applications in 2009
+      talk_url: http://yapc10.org/yn2009/talk/1972
+    session_C:
+      duration: 50
+      speaker: Nicholas Perez (nperez)
+      speaker_url: http://yapc10.org/yn2009/user/1719
+      talk:
+        comment: " POE and it's filter framework make it ideal for protocol implementation. As many protocols do, they are simply payloads layered like an onion. By implementing filters for each layer and stacking them, it enables a clean, and encapsulated way for developers to get to the core payload without cluttering the guts of the application with layer stripping code. A prime example is XMLRPC. This is a dissection of the filters needed to successfully implement an XMLRPC server/client. "
+        tags:
+          - filter
+          - http
+          - parsing
+          - poe
+          - protocol
+          - stackable
+          - xml
+          - xmlrpc
+        title: Protocol abstraction through stackable POE::Filters
+      talk_url: http://yapc10.org/yn2009/talk/1926
+    time: 01:00PM
+  - session_A:
+      duration: 50
+      speaker: Matt Trout
+      speaker_url: http://yapc10.org/yn2009/user/1846
+      talk:
+        comment: " There's More Than One Way To Do It! But this year, one is more popular than another. Next year, that may have changed. And sometimes there's more than one way but most of them are wrong. And consistency can be a good thing too. This talk takes an irreverent, high speed look at emergent, emerged and obsoleted standards in perl, and talks about how we need to think in order to transition between them, and to code for the ages (or at least the maintenance programmer). Touching on the view from a web framework maintainer, the Enlightened Perl extended core project and other efforts, Matt tries to explain why standards are good, why we already have them, and why most perl programmers still haven't actually noticed that. "
+        tags:
+          - best
+          - epo
+          - perl
+          - perl5
+          - practice
+          - standards
+        title: 'Catching a ::Std - Standardisation and best practices in the perl community'
+      talk_url: http://yapc10.org/yn2009/talk/1978
+    session_B:
+      duration: 50
+      speaker: Jesse Vincent
+      speaker_url: http://yapc10.org/yn2009/user/540
+      talk:
+        comment: ' SD is a disconnected, replicated bug tracking system designed to let developers track and resolve bugs without sacrificing the flexibility of the modern workflows made possible by distributed version control systems. In this talk, you’ll learn about what how SD works and how SD helps you get work done. Topics covered will include: day to day use of the SD CLI and Web interfaces sharing SD databases with other users taking other bug trackers like Google Code and Trac offline with SD integrating SD with your distributed version control system improving your workflow by scripting SD Find out more about SD at http://syncwith.us '
+        tags:
+          - bug
+          - bugtracker
+          - p2p
+          - prophet
+          - rt
+          - sd
+          - trac
+          - tracking
+        title: Distributed bug tracking with SD
+      talk_url: http://yapc10.org/yn2009/talk/2043
+    session_C:
+      duration: 50
+      speaker: Michael Peters (mpeters)
+      speaker_url: http://yapc10.org/yn2009/user/1655
+      talk:
+        comment: " Now that you've got that test suite written how do you take full advantage of it? Continuous Integration Testing is the practice of automatically running your test suite against any and all changes committed to your code repository. Java has Cruise Control, Python has Buildbot but nothing has really taken off in the Perl world. There are Perl solutions (CABIE, Tinderbox, etc) which we will compare and discuss their short comings. We'll examine common homebrewed techniques that provide the 90% solution while discussing what an ideal system would look like. It doesn't matter if this is your first project with a test suite or your hundredth, anyone looking to take their automated testing to the next level will benefit from this discussion. "
+        tags:
+          - control
+          - integration
+          - source
+          - testing
+        title: Continuous Integration Testing in Perl
+      talk_url: http://yapc10.org/yn2009/talk/2005
+    time: 01:55PM
+  - session_A:
+      duration: 20
+      speaker: Chris Prather (perigrin)
+      speaker_url: http://yapc10.org/yn2009/user/983
+      talk:
+        comment: " The Enlightened Perl Organisation was established support certain Perl development efforts that ensure Perl's future as an enterprise-grade development platform. One of the initial projects for the EPO is the creation of an Extended Core. A Perl distribution that provides some best of breed applications that are vetted and currently being used in large Enterprises. This talk is a discussion of the Modules in the EPO Extended Core, and the selection process they underwent, as well as how you can get involved in the process and in the Enlightened Perl Organisation itself. "
+        tags:
+          - catalyst
+          - dbic
+          - epo
+          - moose
+        title: The EPO Extended Core
+      talk_url: http://yapc10.org/yn2009/talk/1931
+    session_B: {}
+    session_C:
+      duration: 20
+      speaker: Steven Lembark
+      speaker_url: http://yapc10.org/yn2009/user/1505
+      talk:
+        comment: ' Perly arrays are flexible, but there are still a few things that lists can help with. Memory management is one: linked lists return space to the free store as it is freed. Being able to walk multiple lists at once without having to use offsets for all of them is another. Both of these are boon for high-volume processing (e.g. bioinformatics). They also simplify granular locking in threaded applicatons. Singly-linked lists are not complicated in Perl, and if done right can be quite fast. They do require a destructor, however, and reversing the standard picture of thier structure to work well. '
+        title: 'Linked Lists in Perl: How, and why bother.'
+      talk_url: http://yapc10.org/yn2009/talk/1840
+    time: 02:55PM
+  - session_A:
+      duration: 50
+      speaker: David Moreno (damog)
+      speaker_url: http://yapc10.org/yn2009/user/1688
+      talk:
+        comment: " Perl is being actively used to develop large scalable applications to deal with the major, hyped and popular social networks. Thanks to great advances on Perl libraries and 3rd party modules, one can build new, smoking, bleeding-edge technologies, based on the social networks' available APIs. Not only PHP or Ruby are being used to develop 3rd party applications for these social networks, also Perl. Heavily. And if you are not using Perl to do so or are skeptical about it, this is the perfect talk for you to attend. There will be two main sections on this presentation. One is focused on developing for a social network, as a 3rd party application; second, developing a social network using Perl, which Web modules, libraries and technologies, mainly under the Modern Perl paradigm. "
+        tags:
+          - bebo
+          - facebook
+          - media
+          - myspace
+          - networks
+          - perl
+          - social
+          - tagged
+          - twitter
+          - xanga
+        title: Perl in the Time of Social Networks
+      talk_url: http://yapc10.org/yn2009/talk/2019
+    session_B: {}
+    session_C:
+      duration: 50
+      speaker: Todd Rinaldo (toddr)
+      speaker_url: http://yapc10.org/yn2009/user/1699
+      talk:
+        comment: " A year ago, myself and 2 others were assigned a project to provide a revamp of a web based configuration management system.  We were a team of 3 moderatley experienced perl programmers with no Catalyst, DBIC, Template, or Perl testing experience. This is a story of our trials and tribulations starting out from 0 with these technologies and building a fully functional system.  Come learn from our mistakes so you won't make them yourself when you decide to take the plunge "
+        tags:
+          - catalyst
+          - dbic
+          - template
+          - toolkit
+          - tt
+        title: 'Catalyst, DBIC, and TT for world domination'
+      talk_url: http://yapc10.org/yn2009/talk/2060
+    time: 03:20PM
+  - session_A:
+      duration: 20
+      speaker: brad oaks (bradoaks)
+      speaker_url: http://yapc10.org/yn2009/user/1811
+      talk:
+        comment: " This talk will help you get started arranging your tests into modules. We'll cover setting up a simple TAP::Harness to run your tests. Then we'll see how Plus Three has used Test::Class to divide up and reuse code in our test suite. Separating tests out from a large .t file into modules and subroutines has helped me confirm more quickly that a code change has not introduced a regression. Developers save time by only running the relevant subset of tests before committing a change to the code or a change to the tests themselves. I'll offer a few tips on checking preconditions in your testing environment (e.g. is a daemon running, is an external service url reachable) and either bailing out gracefully or trying to remedy the situation. You can ease into this modularization adventure. With Test::Class your shinier new tests can work right beside the venerable dustier ones letting you rework them as they need it. "
+        title: Warming up to Modular Testing with Test::Class
+      talk_url: http://yapc10.org/yn2009/talk/1996
+    session_B:
+      duration: 20
+      speaker: Scott Walters (scrottie)
+      speaker_url: http://yapc10.org/yn2009/user/1960
+      talk:
+        comment: " One Perl programmer's inside view of the industry that is Vegas electronic gaming and the story of how a small startup using Perl succeeded in bringing a new technology to market where larger players failed. Onerous security requirements and regulations left other vendors stuck. I'd like to talk about some of the challenges we faced meeting these requirements, how we solved them using Perl, and how Perl is uniquely suited to unique challenges. I'd also like to give an inside, but censored, view of this seldom seen and fascinating industry, talking about the the regulations, politics, hardware, history, and security. "
+        tags:
+          - easy
+          - fools
+          - games
+          - gaming
+          - money
+          - parting
+          - security
+        title: Perl in Vegas
+      talk_url: http://yapc10.org/yn2009/talk/1974
+    session_C:
+      duration: 20
+      speaker: Jonathan Swartz
+      speaker_url: http://yapc10.org/yn2009/user/2783
+      talk:
+        comment: ' CHI provides a unified, implementation-independent caching API - a "DBI for caching". This talk will introduce CHI and describe how to use its features for more flexible and effective caching. CHI HIGHLIGHTS * Works with the gamut of popular cache backends: memory, Berkeley DB, DBI, memory mapped files (via Cache::FastMmap), and memcached (via Cache::Memcached and similar). * Provides a very low barrier to the creation of new drivers, akin to writing a TIE interface to your data store. * Offers features beyond the usual caching API, such as probabilistic expiration, background recomputation, and multi-level caches. * Well-positioned for use in any package that wants to employ caching in an implementation-independent way. Obvious candidates include include web frameworks (Catalyst, Mason, CGI::Application), session managers (Apache::Session, CGI::Session), and object-relational mappers (Rose::DB::Object, DBIx::Class). Ideal audience member is an intermediate Perl developer. However, Perl developers of all levels, and non-Perl developers interested in caching techniques (e.g. for web development), could benefit from this talk. CHI STATUS CHI was developed for the Hearst corporation and is widely used on the Hearst magazine websites. It was released to CPAN on January 19, 2008. MORE INFORMATION * "CPAN documentation":http://cpan.uwinnipeg.ca/htdocs/CHI/CHI.html * "Solutions for typical cache usage problems":http://use.perl.org/~jonswar/journal/35579 ROUGH SLIDE OUTLINE * What is CHI * Basic API - get/set/remove, namespaces, expiration * Drivers - summary of available drivers (Memory, File, FastMmap, BerkeleyDB, DBI, Memcached) and their trade-offs * Drivers - show pretty graph comparing performance between drivers * Drivers - show code for BerkeleyDB driver, to illustrate how easy it is to create new drivers * Features - avoiding miss stampedes (many processes try to recompute cache when it expires) * Features - avoiding recomputation latency (client has to wait while an item is recomputed) * Subcaches ** L1 cache - e.g. back up a memcached cache with a local memory cache ** Mirror cache - e.g. migrate cache from one location or driver to another * Cache statistics ** CHI can collect statistics at run-time and issue periodic reports ** Show pretty graph of statistics collected on a real website '
+        title: 'CHI: Unified caching for Perl'
+      talk_url: http://yapc10.org/yn2009/talk/1969
+    time: 04:15PM
+  - session_A:
+      duration: 50
+      speaker: Dan Dascalescu
+      speaker_url: http://yapc10.org/yn2009/user/5223
+      talk:
+        comment: " MojoMojo is the most complex open source Catalyst application developed to date. It is a Web2.0 wiki with AJAX live preview, hierarchical structure, tags, diffs, pluggable syntax, permissions/ACL, attachments, RSS feeds, a photo gallery, edit conflict resolution via 3-way merge, themes/skinning, localization, built-in full-text search, and a reverse index. Since it's built on top of the Perl Catalyst Web framework, MojoMojo supports any Web server, and includes its own standalone one. It also support any database backend supported by the DBIx::Class ORM, and has been successfully tested with PostgreSQL, SQLite, and MySQL. "
+        tags:
+          - blog
+          - catalyst
+          - cms
+          - wiki
+        title: 'MojoMojo - the Elegant Wiki, Catalyst-powered'
+      talk_url: http://yapc10.org/yn2009/talk/2002
+    session_B: {}
+    session_C:
+      duration: 20
+      speaker: Timothy Appnel (tima)
+      speaker_url: http://yapc10.org/yn2009/user/2797
+      talk:
+        comment: " Movable Type began life as nearly 8 years ago as a tool for enthusiasts and Blogger refugees that grew rapidly over the years to power millions of blogs of ever shape and form. Like it or not, MT is one of the most widely-deployed and well-known pieces of Perl software in existence and is an untapped resource to the Perl community with its GPL license. Despite being maligned for its commercial background and startup missteps, there is value in the GPL'ed code and opportunity for the Perl community to demonstrate that Perl is not a dying language and can be very useful to every day users. As a long-time veteran of MT and Perl development who is not afraid to speak his mind, Tim will provide his unique perspective on this topic. * MT Over Time -- from the beginnning to present day * Architectural Makeup -- what can it do and how * How MTOS benefits from CPAN & how CPAN can benefit from MTOS * MTOS Roadmap, Current Activity & Getting Involved The presentation will concluded with Tim fielding questions, feedback and leading a discussion from the audience. "
+        tags:
+          - action
+          - blogging
+          - call
+          - cpan
+          - gpl
+          - media
+          - movable
+          - mt
+          - open
+          - publishing
+          - social
+          - source
+          - to
+          - type
+        title: 'Movable Type Open Source (MTOS): The Perl Publishing System The Community Forgot'
+      talk_url: http://yapc10.org/yn2009/talk/2095
+    time: 04:40PM
+2009-06-24:
+  - session_A:
+      duration: 50
+      speaker: Morris Siegel (Morrie)
+      speaker_url: http://yapc10.org/yn2009/user/1707
+      talk:
+        comment: " One of the chief reasons for Perl's popularity is its regexp pattern-matching facility, and Perl 6 is substantially more powerful than Perl 5 in that regard. Snobol4 is arguably the first widely-available language providing a pattern-matching facility, and despite its age, and despite all the new features of Perl 6, there are still some aspects in which Snobol4 pattern-matching is more powerful than that of Perl 6. This talk provides an overview of Snobol4 pattern-matching, then presents a number of possible enhancements to Perl 6 based on ideas inspired by Snobol4 but adapted to Perl's idiom. "
+        tags:
+          - 6
+          - grammar
+          - matching
+          - pattern
+          - perl
+          - perl6
+          - regexp
+          - snobol
+          - snobol4
+        title: Enhancing Perl 6 Pattern-Matching with Ideas from Snobol4
+      talk_url: http://yapc10.org/yn2009/talk/1988
+    session_B:
+      duration: 50
+      speaker: Steven Lembark
+      speaker_url: http://yapc10.org/yn2009/user/1505
+      talk:
+        comment: " Most users don't ever realize just how much of a memory hog Perl is. Being Perl, however, the language makes it easy to find out. Using Devel::Peel and Devel::Size. This talk uses both to peer into scalars, arrays, and hashes and shows some ways to reduce the overhead when dealing with long-lived or high-volume applications. Viewers should walk away with enough understanding of the modules to track memory use in their own code. "
+        title: Memory Manglement With Perl
+      talk_url: http://yapc10.org/yn2009/talk/1841
+    session_C: {}
+    session_D:
+      duration: 50
+      speaker: Paul Grassie
+      speaker_url: http://yapc10.org/yn2009/user/1733
+      talk:
+        comment: ' This talk provides an overview of how Perl manages variables internally, the role of typeglobs and symbol tables in the import-export mechanism, and creating subroutine wrappers through selective aliasing. '
+        title: Symbol Tables & Typeglobs
+      talk_url: http://yapc10.org/yn2009/talk/1908
+    time: 08:00AM
+  - session_A:
+      duration: 50
+      speaker: Walt Mankowski (waltman)
+      speaker_url: http://yapc10.org/yn2009/user/1691
+      talk:
+        comment: " In this talk we'll discuss how to write multithreaded programs in Perl. We'll begin with the basic threading model in Perl and how it differs from other popular thread systems such as pthreads and Java threads. We'll discuss how to create threads, how to share data between threads, and how to coordinate access to data using locks and semaphores. Finally we'll talk about how to use higher-level concepts such as queues and thread pools "
+        tags:
+          - threads
+        title: Getting Started with Multithreaded Perl
+      talk_url: http://yapc10.org/yn2009/talk/1990
+    session_B:
+      duration: 50
+      speaker: Josh ben Jore (jjore@world / diotalevi@perlmonks)
+      speaker_url: http://yapc10.org/yn2009/user/1468
+      talk:
+        comment: ' Effective Debugging covers the basics of debugging your Perl programs on Linux and Mac OS X '
+        tags:
+          - fail
+        title: Effective Debugging
+      talk_url: http://yapc10.org/yn2009/talk/1973
+    session_C:
+      duration: 50
+      speaker: Abigail
+      speaker_url: http://yapc10.org/yn2009/user/289
+      talk:
+        comment: ' This mini tutorial will explain how grouping and (back)referencing works in regular expressions. Special attention will be paid to the new 5.10 features: named capture groups, %+ and %-, relative backreferencing, \g{ }, and group count resetting. We will also show how you can use (named) subpatters to write powerfull parsers. '
+        tags:
+          - expressions
+          - regular
+          - tutorial
+        title: 'Regexp Mini Tutorial: Grouping and Referencing'
+      talk_url: http://yapc10.org/yn2009/talk/1994
+    session_D:
+      duration: 50
+      speaker: Ingy döt Net
+      speaker_url: http://yapc10.org/yn2009/user/2931
+      talk:
+        comment: ' YAML is used in a plethora of projects in Perl and beyond. Perl YAML tools have trailed in the polls for a long time. This year all that is changing. Yes We Can: * Have complete YAML 1.1 in Perl * Depend on totally accurate Dumpers and Loaders * Finally do streaming processing on YAML * Use types and tags with confidence * Have YAML that works with processors in other languages * Tokenize YAML for syntax highlighting * Stop using global variables for an API * Have an upgrade path for YAML processors In this talk, Ingy will show the new tools that were created as the result of his (long awaited) TPF grant project completion. '
+        tags:
+          - grant
+          - ingy
+          - naked
+          - perl
+          - tpf
+          - yaml
+        title: All New YAML Tools for Perl
+      talk_url: http://yapc10.org/yn2009/talk/1948
+    time: 08:55AM
+  - session_A:
+      duration: 20
+      speaker: Robin Darby
+      speaker_url: http://yapc10.org/yn2009/user/1466
+      talk:
+        comment: ' Talk aimed at demonstrating how perl can be used to manage Amazon AWS ec2 instances. Including performance measuring, automatic scaling, bundling and deployments. '
+        tags:
+          - amazon
+          - ec2
+        title: 'perl, cloud glue?'
+      talk_url: http://yapc10.org/yn2009/talk/1870
+    session_B:
+      duration: 20
+      speaker: Tatsuhiko Miyagawa (miyagawa)
+      speaker_url: http://yapc10.org/yn2009/user/1695
+      talk:
+        comment: " Ajax is all about Web 2.0 sites, but the technology is also useful to build a desktop application running as a web server on your desktop (localhost). In this talk, I'll guide you how to build a rich desktop application running in your browser using jQuery and its UI libraries as a frontend, talking to Perl and HTTP::Engine based web server backed by SQLite database, based on my experience with the media RSS browser application Remedie http://remediecode.org/ "
+        tags:
+          - ajax
+          - httpengine
+          - javascript
+          - jquery
+          - sqlite
+        title: 'Build a desktop application with Perl, HTTP::Engine, SQLite and jQuery'
+      talk_url: http://yapc10.org/yn2009/talk/2018
+    session_C:
+      duration: 20
+      speaker: Steven Lembark
+      speaker_url: http://yapc10.org/yn2009/user/1505
+      talk:
+        comment: ' List::Util & Scalar::Util are fast, simple, and handy to have. Problem is: most people never learn about them. This is a quick introduction to the utility functions, how to use them, and why. '
+        title: Utils are your Friends
+      talk_url: http://yapc10.org/yn2009/talk/1850
+    session_D:
+      duration: 20
+      speaker: Ricardo SIGNES (rjbs)
+      speaker_url: http://yapc10.org/yn2009/user/1634
+      talk:
+        comment: " Data validation is a real pain, but it's a huge help in preventing bugs. By using one system for validating data everywhere, the burden of validation is greatly simplified. Rx is a schema language that can be used to validate data structures anywhere in your Perl programs. It integrates with Moose types, is extremely extensible, and is portable across languages: Rx implementations also exist in Python, Ruby, PHP, and JavaScript. "
+        title: Validating Data Everywhere with Rx
+      talk_url: http://yapc10.org/yn2009/talk/1944
+    time: 09:55AM
+  - session_A:
+      duration: 20
+      speaker: Karen Pauley
+      speaker_url: http://yapc10.org/yn2009/user/302
+      talk:
+        comment: " Most of you weren't forced to come to YAPC by your boss, and most of you aren't paid to contribute to Perl or other Open Source projects. As volunteers you can choose to join in. But if you don't like it, you can easily choose to leave. All teams and projects need some sort of management, and good management isn't easy. If your team members are distributed around the world, with different languages and cultures, it's even harder. Make them volunteers and it may become almost impossible to stay productive. In this talk I will describe the common problems, tell you how to avoid them, and explain what to do when everything goes wrong. "
+        tags:
+          - management
+          - volunteers
+        title: Remote Controlled Volunteers
+      talk_url: http://yapc10.org/yn2009/talk/2067
+    session_B:
+      duration: 20
+      speaker: Brock Wilcox (awwaiid)
+      speaker_url: http://yapc10.org/yn2009/user/1650
+      talk:
+        comment: " One of the tried and true ways of debugging is to sprinkle 'print \"Here! $val\\n\"' around and see what happens or if the program even reaches that point. Simple and effective! Carp::REPL lets you take this a step further by starting an interactive Read-Eval-Print Loop (REPL) at an arbitrary point in your program. I've taken this technique and mixed in a splash of Continuity to build an interactive web-based REPL and inspector for your application. The REPL lets you execute arbitrary code, the inspector gives you a GUI for traversing your callstack and manipulating your variables. It works on regular applications and CGI scripts too. You just add a single \"inspect()\" where you like and you'll be whackin' those bugs DOWN! In this talk I'll show you how to use the tool and how it's built... and how you can add to it with plugins. "
+        tags:
+          - cgi
+          - continuity
+          - debug
+          - repl
+          - web
+        title: Drop-In Web-Based REPL for CGI Applications
+      talk_url: http://yapc10.org/yn2009/talk/2012
+    session_C:
+      duration: 20
+      speaker: Leonard Miller (olegm)
+      speaker_url: http://yapc10.org/yn2009/user/1817
+      talk:
+        comment: ' If you are confused by $self->{item} then this is the talk for you. We will talk about all the things that confuse a newer programmer with Object Oriented Perl syntax. '
+        tags:
+          - data%3A%3Adumper
+          - oo
+          - ooperl
+        title: 'Object oriented perl -- everything you were too embarrassed to ask.'
+      talk_url: http://yapc10.org/yn2009/talk/1825
+    session_D: {}
+    time: 10:20AM
+  - session_A:
+      duration: 20
+      speaker: Cory Watson (gphat)
+      speaker_url: http://yapc10.org/yn2009/user/2163
+      talk:
+        comment: " Humans are visual creatures. That being said, few things help bring data from the ethereal to the concrete better than data visualization. In this talk we will quickly explore some of the power that Chart::Clicker and it's underlying libraries grant in your quest to visualize the subtleties of numbers. We will cover ways beyond simple lines, bars and circles to present data to your users. Come and channel your inner Tufte as we explore the beautiful works you could be creating. "
+        tags:
+          - charting
+          - clicker
+          - drugs
+          - graphs
+          - moose
+          - rocknroll
+          - sex
+          - visualization
+        title: Data Visualization with Chart::Clicker
+      talk_url: http://yapc10.org/yn2009/talk/1879
+    session_B:
+      duration: 20
+      speaker: Brock Wilcox (awwaiid)
+      speaker_url: http://yapc10.org/yn2009/user/1650
+      talk:
+        comment: " The mightly WWW::Mechanize is fantastic... right up until you have to deal with some javascript. The HtmlUnit project has build on the Mozilla Rhino engine to create a browser agent that works even against complex javascript. It passes the JQuery test suite, as an example of it's powers. We will present the Perl interface to the HtmlUnit library, setting you on the path to scraping and testing those javascript-dependent sites that you've being eyeing for so long. "
+        tags:
+          - javascript
+          - jquery
+          - testing
+          - web
+        title: 'WWW::HtmlUnit - Scrape and Test Javascript-Using Sites'
+      talk_url: http://yapc10.org/yn2009/talk/2013
+    session_C:
+      duration: 20
+      speaker: David Fetter
+      speaker_url: http://yapc10.org/yn2009/user/2895
+      talk:
+        comment: " While travelling the world advocating PostgreSQL, it's hard to keep a newsletter going out each week. Find out how Perl and $EDITOR help out with this task, and how you can make your life easier, too. "
+        tags:
+          - journalism
+          - newsletter
+          - perl
+          - postgresql
+          - pwn
+        title: 'Perl PWNs, or How I Use Perl to Publish a Newsletter'
+      talk_url: http://yapc10.org/yn2009/talk/1997
+    session_D:
+      duration: 20
+      speaker: Dan Dascalescu
+      speaker_url: http://yapc10.org/yn2009/user/5223
+      talk:
+        comment: ' Given their live nature, web applications are a bit tricky to debug. This talk will introduce you to debugging Catalyst web applications, using both the Perl built-in debugger, and the ActiveState Komodo IDE. '
+        tags:
+          - app
+          - application
+          - catalyst
+          - debug
+          - komodo
+          - web
+        title: Debugging Catalyst Applications
+      talk_url: http://yapc10.org/yn2009/talk/2003
+    time: 10:45AM
+  - session_A:
+      duration: 50
+      speaker: Cory Watson (gphat)
+      speaker_url: http://yapc10.org/yn2009/user/2163
+      talk:
+        comment: ' Perl is a wonderful language. It provides us with smorgasbord of choices when time comes for implementation. Unfortunately these choices can be frustrating and paralyzing for potential users. Moose represents a "best practices" approach to Object Oriented Programming in Perl. As the manager of a development team, I have strong opinions on how Perl makes my job difficult and how projects like Moose take away a lot of the pain. We will start with an introduction to Moose. This introduction is high level and meant to show how Moose can take away a lot of the yak-shaving in day-to-day work. The talk will then enumerate reasons why Moose is So Damned Important, how it makes our jobs easier, and how it makes Perl viable for larger development groups. '
+        tags:
+          - drugs
+          - managers
+          - moose
+          - rocknroll
+          - sex
+        title: Moose for Managers
+      talk_url: http://yapc10.org/yn2009/talk/1878
+    session_B:
+      duration: 50
+      speaker: Nicholas Perez (nperez)
+      speaker_url: http://yapc10.org/yn2009/user/1719
+      talk:
+        comment: ' IKC enables disparate POE::Kernel instances to communicate via TCP and allows posting to remote sessions as if they were local. POE::Component::PubSub enables a registry of events to which sessions can publish events and to which other sessions can subscribe allowing easy broadcasting and interface definition. Combine these two components into the Voltron of dynamic application servers where services and consumers can be added without taking down the core service. Discusses a working example of a simple application server hosting a simple host monitoring application with a client '
+        tags:
+          - application
+          - component
+          - host
+          - ikc
+          - monitoring
+          - poe
+          - pubsub
+          - server
+          - voltron
+        title: POE::Component::IKC + POE::Component::PubSub = Voltron
+      talk_url: http://yapc10.org/yn2009/talk/1927
+    session_C:
+      duration: 20
+      speaker: Mark Keating (mdk/markie)
+      speaker_url: http://yapc10.org/yn2009/user/1857
+      talk:
+        comment: ' Modern Perl projects and their surrounding communities have developed in the years since the release of Perl 5.0: the continuing evolution of Perl into a more object orientated language; the growth of projects creating features developed for the, as yet unreleased, Perl 6 to enhance Perl 5; the practice of looking at other languages and learning from them; the culture of stable, test-driven releases that have more compatibility with their predecessors; are some of the features of this development. This talk will give an introduction to the idea of an Enlightened Perl and the Enlightened Perl Organisation and its aims. It will discuss the importance of uniting corporate with community and how this affects the development process. The presentation is not a technical discussion it is a cultural perspective. '
+        tags:
+          - business
+          - community
+          - corporate
+          - enlightened
+          - epo
+          - perl
+        title: 'What is Enlightened Perl? What is the Enlightened Perl Organisation?'
+      talk_url: http://yapc10.org/yn2009/talk/1894
+    session_D:
+      duration: 20
+      speaker: Barbie
+      speaker_url: http://yapc10.org/yn2009/user/230
+      talk:
+        comment: " How the YAPC Conference Surveys are run, and a look at past surveys to see how attendees have reviewed previous conferences. If you're interested getting a taste of some of the thoughts of the European Perl community, or are interested in putting together a similar type of survey, then this talk is for you. "
+        tags:
+          - survey
+          - yapc
+        title: Surveying a YAPC
+      talk_url: http://yapc10.org/yn2009/talk/1919
+    time: 11:10AM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 50
+      speaker: R Geoffrey Avery (rGeoffrey)
+      speaker_url: http://yapc10.org/yn2009/user/232
+      talk:
+        comment: " Why Would You Want to do a Lightning Talk? Maybe you've never given a talk before, and you'd like to start small. For a Lightning Talk, you don't need to make slides, and if you do decide to make slides, you only need to make three. Maybe you're nervous and you're afraid you'll mess up. It's a lot easier to plan and deliver a five minute talk than it is to deliver a long talk. And if you do mess up, at least the painful part will be over quickly. Maybe you don't have much to say. Maybe you just want to ask a question, or invite people to help you with your project, or boast about something you did, or tell a short cautionary story. These things are all interesting and worth talking about, but there might not be enough to say about them to fill up thirty minutes. Maybe you have a lot of things to say, and you're already going to give a long talk on one of them, and you don't want to hog the spotlight. There's nothing wrong with giving several Lightning Talks. Hey, they're only five minutes. On the other side, people might want to come to a lightning talk when they wouldn't come to a long talk on the same subject. The risk for the attendees is smaller: If the talk turns out to be dull, or if the person giving the talk turns out to be a really bad speaker, well, at least it's over in five minutes. With lightning talks, you're never stuck in some boring lecture for forty-five minutes. Still having trouble picking a topic, here are some suggestions: 1. Why my favorite module is X. 2. I want to do cool project X. Does anyone want to help? 3. Successful Project: I did project X. It was a success. Here's how you could benefit. 4. Failed Project: I did project X. It was a failure, and here's why. 5. Heresy: People always say X, but they're wrong. Here's why. 6. You All Suck: Here's what is wrong with the our community. 7. Call to Action: Let's all do more of X / less of X. 8. Wouldn't it be cool if X? 9. Someone needs to do X. 10. Wish List 11. Why X was a mistake. 12. Why X looks like a mistake, but isn't. 13. What it's like to do X. 14. Here's a useful technique that worked. 15. Here's a technique I thought would be useful but didn't work. 16. Why algorithm X sucks. 17. Comparison of algorithms X and Y.  Of course, you could give the talk on anything you wanted, whether or not it is on this list. If we get a full schedule of nothing but five minutes of ranting and raving on each topic, a good time will still be had by most. "
+        title: Lightning Talks Round 1
+      talk_url: http://yapc10.org/yn2009/talk/1821
+    time: 01:00PM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 50
+      speaker: R Geoffrey Avery (rGeoffrey)
+      speaker_url: http://yapc10.org/yn2009/user/232
+      talk:
+        comment: " Why Would You Want to do a Lightning Talk? Maybe you've never given a talk before, and you'd like to start small. For a Lightning Talk, you don't need to make slides, and if you do decide to make slides, you only need to make three. Maybe you're nervous and you're afraid you'll mess up. It's a lot easier to plan and deliver a five minute talk than it is to deliver a long talk. And if you do mess up, at least the painful part will be over quickly. Maybe you don't have much to say. Maybe you just want to ask a question, or invite people to help you with your project, or boast about something you did, or tell a short cautionary story. These things are all interesting and worth talking about, but there might not be enough to say about them to fill up thirty minutes. Maybe you have a lot of things to say, and you're already going to give a long talk on one of them, and you don't want to hog the spotlight. There's nothing wrong with giving several Lightning Talks. Hey, they're only five minutes. On the other side, people might want to come to a lightning talk when they wouldn't come to a long talk on the same subject. The risk for the attendees is smaller: If the talk turns out to be dull, or if the person giving the talk turns out to be a really bad speaker, well, at least it's over in five minutes. With lightning talks, you're never stuck in some boring lecture for forty-five minutes. Still having trouble picking a topic, here are some suggestions: 1. Why my favorite module is X. 2. I want to do cool project X. Does anyone want to help? 3. Successful Project: I did project X. It was a success. Here's how you could benefit. 4. Failed Project: I did project X. It was a failure, and here's why. 5. Heresy: People always say X, but they're wrong. Here's why. 6. You All Suck: Here's what is wrong with the our community. 7. Call to Action: Let's all do more of X / less of X. 8. Wouldn't it be cool if X? 9. Someone needs to do X. 10. Wish List 11. Why X was a mistake. 12. Why X looks like a mistake, but isn't. 13. What it's like to do X. 14. Here's a useful technique that worked. 15. Here's a technique I thought would be useful but didn't work. 16. Why algorithm X sucks. 17. Comparison of algorithms X and Y.  Of course, you could give the talk on anything you wanted, whether or not it is on this list. If we get a full schedule of nothing but five minutes of ranting and raving on each topic, a good time will still be had by most. "
+        title: Lightning Talks Round 2
+      talk_url: http://yapc10.org/yn2009/talk/2104
+    time: 01:50PM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 130
+      speaker: Closing
+      speaker_url: http://yapc10.org/yn2009/event/545
+    time: 02:50PM
