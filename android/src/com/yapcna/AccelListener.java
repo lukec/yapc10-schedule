@@ -1,4 +1,4 @@
-package com.phonegap.demo;
+package com.yapcna;
 
 import static android.hardware.SensorManager.DATA_X;
 import static android.hardware.SensorManager.DATA_Y;

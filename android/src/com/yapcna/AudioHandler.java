@@ -1,4 +1,4 @@
-package com.phonegap.demo;
+package com.yapcna;
 
 import java.io.File;
 import java.io.IOException;

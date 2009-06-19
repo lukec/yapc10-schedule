@@ -1,4 +1,4 @@
-package com.phonegap.demo;
+package com.yapcna;
 /* License (MIT)
  * Copyright (c) 2008 Nitobi
  * website: http://phonegap.com

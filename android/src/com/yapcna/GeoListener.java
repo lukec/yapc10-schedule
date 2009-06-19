@@ -1,4 +1,4 @@
-package com.phonegap.demo;
+package com.yapcna;
 
 import android.content.Context;
 import android.location.Location;

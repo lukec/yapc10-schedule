@@ -1,4 +1,4 @@
-package com.phonegap.demo;
+package com.yapcna;
 
 import java.io.EOFException;
 import java.io.FileOutputStream;
