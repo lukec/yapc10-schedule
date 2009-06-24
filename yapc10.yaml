@@ -9,6 +9,8 @@
       speaker_url: http://yapc10.org/yn2009/user/284
       talk:
         comment: ' Welcome! '
+        tags:
+          - welcome
         title: Welcome to YAPC|10
       talk_url: http://yapc10.org/yn2009/talk/2102
     time: 09:00AM
@@ -40,7 +42,7 @@
     session_B: {}
     session_C: {}
     session_D:
-      duration: 20
+      duration: 15
       speaker: jerry gay (particle)
       speaker_url: http://yapc10.org/yn2009/user/2995
       talk:
@@ -48,6 +50,18 @@
         title: Parrot Foundation
       talk_url: http://yapc10.org/yn2009/talk/2103
     time: 11:10AM
+  - session_A: {}
+    session_B: {}
+    session_C: {}
+    session_D:
+      duration: 5
+      speaker: Yaakov
+      speaker_url: http://yapc10.org/yn2009/user/1670
+      talk:
+        comment: " YAPC's sessions are a great opportunity to build your perl skills. YAPC's social events are a unique opportunity to build the perl community. As a first time attendee, or a self-proclaimed neophyte, you represent the new strength of our community. We want to help you to meet the people who create perl and the modules you use everyday so you can get to know them and learn that you are already a vital member of the perl community. "
+        title: Welcome to the Perl Community
+      talk_url: http://yapc10.org/yn2009/talk/2143
+    time: 11:25AM
   - session_A:
       duration: 50
       speaker: Scott McWhirter (konobi)
@@ -158,16 +172,7 @@
       talk_url: http://yapc10.org/yn2009/talk/1966
     time: 01:55PM
   - session_A: {}
-    session_B:
-      duration: 50
-      speaker: Chris Wanstrath
-      speaker_url: http://yapc10.org/yn2009/user/5241
-      talk:
-        comment: " Source control has been a neglected piece of the continuous integration puzzle for far too long. Monolithic systems such as Perforce, CVS, and Subversion force an antiquated, centralized workflow at the expense of productivity. As is often the case, many don't realize a better way exists. This talk will examine distributed source control with Git from a high level. Learn how projects and companies can benefit from Git by seeing the different workflows it introduces in action. We'll discuss how GitHub changes everything when it comes to tracking and managing open source, as well as your own team's source. Perl libraries for working with Git, alternative uses of Git, and integration points (such as the Eclipse, TextMate, Emacs, and Vim plugins) will also be touched upon. Expect to leave this talk with a working knowledge of the concepts behind distributed source control and excited about the distributed future. "
-        tags:
-          - git
-        title: 'Git: The Lean Mean Distributed Machine'
-      talk_url: http://yapc10.org/yn2009/talk/2099
+    session_B: {}
     session_C:
       duration: 50
       speaker: Bruce Gray (Util)
@@ -223,7 +228,7 @@
       speaker: Jonathan Rockway (jrockway)
       speaker_url: http://yapc10.org/yn2009/user/1681
       talk:
-        comment: " You've heard about KiokuDB, but you're not quite sure how to start using it. This talk will show you how to organize your data and application code to use KiokuDB. "
+        comment: " You've heard about KiokuDB, but you're not quite sure how to start using it. This talk will show you how to organize your data and application code to use KiokuDB. Edit: now with slide link! "
         tags:
           - databases
           - kiokudb
@@ -378,13 +383,13 @@
       speaker: Matt Trout
       speaker_url: http://yapc10.org/yn2009/user/1846
       talk:
-        comment: " Perl has CPAN. CPAN is wonderful. But. CPAN is a source build system, and primarily designed for \"install the latest production release\". On a development server when your project's split into separate packages that doesn't work. When you're trying to test RC releases of major projects you depend upon, that doesn't work. When you want to deploy to dozens of systems which are already using their CPU for something more important, that doesn't work. There are many projects on CPAN that help with different parts of this problem, integrating CPAN mirrors and local packages, building vendor packages from perl distributions, and bundling dependencies along with applications. In this talk, Matt will attempt to cover as much of the state of the art as possible and how these fit into the different strategies available, and discuss how the varied requirements of Shadowcat's clients, in-house development, and open source contributions have led us to the desire for a unified system - and what that unified system does, how and why it does it, and some fascinating perl5 arcana uncovered along the way. "
+        comment: " Now 0.08100 has finally shipped, we're looking to the future - what design mistakes did I make right at the start, what baggage have we acquired along the way. I'll be explaining what I think we got right, what I think we got wrong, and how an ORM shouldn't really be something you have to think about but something that fades into the language. Then I'll explain how we're going to get there. "
         tags:
-          - deployment
-          - perl
-          - perl5
-          - systems
-        title: Dependency management and deployment strategies for perl5
+          - class
+          - db
+          - dbix
+          - orm
+        title: The future of DBIx::Class
       talk_url: http://yapc10.org/yn2009/talk/1975
     session_C:
       duration: 50
@@ -499,22 +504,24 @@
       talk_url: http://yapc10.org/yn2009/talk/1935
     session_C:
       duration: 50
-      speaker: Dave Rolsky (autarch)
-      speaker_url: http://yapc10.org/yn2009/user/1679
+      speaker: Michael Schwern (Schwern)
+      speaker_url: http://yapc10.org/yn2009/user/780
       talk:
-        comment: " Yes, another ORM. I'll tell you about my latest(ish) pollution of CPAN, Fey. Fey is a tool for representing a schema as objects and using them to generate SQL programmatically. Fey::ORM is an ORM built on top of the Fey core. If you like SQL and find other ORMs too \"OO-ish\", then you might like Fey. Or just come heckle me for the hubris of uploading YA(F)ORM. "
+        comment: " All too often you look at someone's Perl code and say \"oh, you can do that better with X module\". Or you find a new or isolated Perl programmer who never knew about strict or List::Util or anything like that. But its not just one module, its dozens. And even if you know about them all you still have to use and depend on them all individually and convince them to play nice together. perl5i aims to improve Perl in a single line, \"use perl5i\". It pulls in and ties together useful CPAN modules which improve the language and everyone needs at one point or another. autodie, autobox, List::Util, Scalar::Util, English, Alias, Modern::Perl, DateTime, IO::Handle... and more. It takes the tribal knowledge of what the best CPAN modules are and puts them all in one place. perl5i lets us improve and explore Perl 5 without all the overhead of actually patching the language. It also gives us an outlet for our pain about programming Perl 5, and the means to fix it. http://github.com/schwern/perl5i and please express your pain in the issue tracker. (perl5i was mentioned in \"Trapped In A Room With Schwern\" and nearly took over the talk, so people seem interested) "
         tags:
-          - dbi
-          - fey
-          - modern
-          - moose
-          - oo
-          - orm
-          - sql
-        title: "Fey, Another Freakin' ORM"
-      talk_url: http://yapc10.org/yn2009/talk/1846
+          - perl5
+          - reimagine
+        title: 'perl5i: Perl 5 Improved'
+      talk_url: http://yapc10.org/yn2009/talk/2155
     time: 10:20AM
-  - session_A: {}
+  - session_A:
+      duration: 20
+      speaker: Chip Salzenberg (chip)
+      speaker_url: http://yapc10.org/yn2009/user/159
+      talk:
+        comment: " Chip offered to give this talk for us. Oops. He didn't give us an abstract. "
+        title: Core Hacking
+      talk_url: http://yapc10.org/yn2009/talk/2172
     session_B:
       duration: 20
       speaker: Mike Schilli
@@ -651,7 +658,20 @@
           - moose
         title: The EPO Extended Core
       talk_url: http://yapc10.org/yn2009/talk/1931
-    session_B: {}
+    session_B:
+      duration: 20
+      speaker: DrForr
+      speaker_url: http://yapc10.org/yn2009/user/1819
+      talk:
+        comment: ' [very loosely] The challenges of i18n/localizing legacy Apache::ASP code. .po files, spreadsheets, working with translators, google code and SVN. '
+        tags:
+          - asp
+          - i8n
+          - internatlonalization
+          - ppi
+          - svn
+        title: Oops! I i18n'd your legacy app!
+      talk_url: http://yapc10.org/yn2009/talk/2156
     session_C:
       duration: 20
       speaker: Steven Lembark
@@ -773,7 +793,7 @@
       speaker: Morris Siegel (Morrie)
       speaker_url: http://yapc10.org/yn2009/user/1707
       talk:
-        comment: " One of the chief reasons for Perl's popularity is its regexp pattern-matching facility, and Perl 6 is substantially more powerful than Perl 5 in that regard. Snobol4 is arguably the first widely-available language providing a pattern-matching facility, and despite its age, and despite all the new features of Perl 6, there are still some aspects in which Snobol4 pattern-matching is more powerful than that of Perl 6. This talk provides an overview of Snobol4 pattern-matching, then presents a number of possible enhancements to Perl 6 based on ideas inspired by Snobol4 but adapted to Perl's idiom. "
+        comment: " One of the chief reasons for Perl's popularity is its regexp pattern-matching facility, and Perl 6 is substantially more powerful than Perl 5 in that regard. Snobol4 is arguably the first widely-available language providing a pattern-matching facility, and despite its age, and despite all the new features of Perl 6, there are still some aspects in which Snobol4 pattern-matching is more powerful than that of Perl 6. This talk provides an overview of Snobol4 pattern-matching, then presents a number of possible enhancements to Perl 6 based on ideas inspired by Snobol4 but adapted to Perl's idiom. In addition, we propose various other suggestions that are intended to make Perl 6 pattern-matching easier to learn and use. "
         tags:
           - 6
           - grammar
@@ -819,8 +839,9 @@
       speaker: Josh ben Jore (jjore@world / diotalevi@perlmonks)
       speaker_url: http://yapc10.org/yn2009/user/1468
       talk:
-        comment: ' Effective Debugging covers the basics of debugging your Perl programs on Linux and Mac OS X '
+        comment: ' Effective Debugging covers the basics of debugging Perl (and Ruby) programs on Linux and Mac OS X. * How to make debugging easy * Copy-n-paste voodoo * A bit of shazam Beginners can learn how to avoid needing voodoo and can add some copy-n-paste voodoo to their toolkit. Experts can take some fancy tricks and learn how to craft their own. '
         tags:
+          - debugging
           - fail
         title: Effective Debugging
       talk_url: http://yapc10.org/yn2009/talk/1973
@@ -1060,7 +1081,7 @@
       speaker: R Geoffrey Avery (rGeoffrey)
       speaker_url: http://yapc10.org/yn2009/user/232
       talk:
-        comment: " Why Would You Want to do a Lightning Talk? Maybe you've never given a talk before, and you'd like to start small. For a Lightning Talk, you don't need to make slides, and if you do decide to make slides, you only need to make three. Maybe you're nervous and you're afraid you'll mess up. It's a lot easier to plan and deliver a five minute talk than it is to deliver a long talk. And if you do mess up, at least the painful part will be over quickly. Maybe you don't have much to say. Maybe you just want to ask a question, or invite people to help you with your project, or boast about something you did, or tell a short cautionary story. These things are all interesting and worth talking about, but there might not be enough to say about them to fill up thirty minutes. Maybe you have a lot of things to say, and you're already going to give a long talk on one of them, and you don't want to hog the spotlight. There's nothing wrong with giving several Lightning Talks. Hey, they're only five minutes. On the other side, people might want to come to a lightning talk when they wouldn't come to a long talk on the same subject. The risk for the attendees is smaller: If the talk turns out to be dull, or if the person giving the talk turns out to be a really bad speaker, well, at least it's over in five minutes. With lightning talks, you're never stuck in some boring lecture for forty-five minutes. Still having trouble picking a topic, here are some suggestions: 1. Why my favorite module is X. 2. I want to do cool project X. Does anyone want to help? 3. Successful Project: I did project X. It was a success. Here's how you could benefit. 4. Failed Project: I did project X. It was a failure, and here's why. 5. Heresy: People always say X, but they're wrong. Here's why. 6. You All Suck: Here's what is wrong with the our community. 7. Call to Action: Let's all do more of X / less of X. 8. Wouldn't it be cool if X? 9. Someone needs to do X. 10. Wish List 11. Why X was a mistake. 12. Why X looks like a mistake, but isn't. 13. What it's like to do X. 14. Here's a useful technique that worked. 15. Here's a technique I thought would be useful but didn't work. 16. Why algorithm X sucks. 17. Comparison of algorithms X and Y.  Of course, you could give the talk on anything you wanted, whether or not it is on this list. If we get a full schedule of nothing but five minutes of ranting and raving on each topic, a good time will still be had by most. "
+        comment: " Accepted Lightning Talks: * lukec - ‎Webhooks‎ * Scott Walters (‎scrottie‎) - ‎Righting Inside-Out Objects‎ * talk:2006 * Doug Bell (‎preaction‎) - ‎Vim as a Perl IDE‎ * John Beppu - ‎A COMET server implemented with Squatting and Continuity‎ * David Bury - ‎MooseX::Documenter‎ * Jay Hannah (‎jhannah‎) - ‎MooseX::Workers‎ * Ilia Lobsanov - ‎Continuous Integration for Perl‎ * Jesse Luehrs (‎doy‎) - ‎Botting NetHack with TAEB‎ * Steve Scaffidi (‎Hercynium‎) - ‎Website testing is tedious. Automate it!‎ * Zak Zebrowski - ‎Perl && Arduino‎ * Rob Kinyon - ‎Converting huge apps from Class::DBI to DBIx::Class‎ * Brad Cavanagh (‎CanSpice‎) - ‎Astronomical T&A thanks to Perl‎ * Rick Scott (‎shadowspar‎) - ‎Growing the Perl Hackers of tomorrow (or, \"Hook 'em while they're young\")‎ * Darcy Whyte - ‎Elastic Band Powered Airplane‎ * Todd Olson - ‎Measurement Driven Life: Reversing the Health Destroying Effects of Perl Programming‎ * Matt Trout - ‎Rum, bloggery and the lash‎ * Jeff Horwitz - ‎The LOLCAT History of Perl 6 and Parrot‎ Speakers, If you are accepted, please edit your talk here on the website to either check the confirm box if you will give your talk or uncheck the accepted box if you would like to not speak. Please arrive 15 minutes before the talks start and we will have reserved seating for speakers in the front row. If there are any questions please ask rGeoffrey on IRC or in person. --- Why Would You Want to do a Lightning Talk? Maybe you've never given a talk before, and you'd like to start small. For a Lightning Talk, you don't need to make slides, and if you do decide to make slides, you only need to make three. Maybe you're nervous and you're afraid you'll mess up. It's a lot easier to plan and deliver a five minute talk than it is to deliver a long talk. And if you do mess up, at least the painful part will be over quickly. Maybe you don't have much to say. Maybe you just want to ask a question, or invite people to help you with your project, or boast about something you did, or tell a short cautionary story. These things are all interesting and worth talking about, but there might not be enough to say about them to fill up thirty minutes. Maybe you have a lot of things to say, and you're already going to give a long talk on one of them, and you don't want to hog the spotlight. There's nothing wrong with giving several Lightning Talks. Hey, they're only five minutes. On the other side, people might want to come to a lightning talk when they wouldn't come to a long talk on the same subject. The risk for the attendees is smaller: If the talk turns out to be dull, or if the person giving the talk turns out to be a really bad speaker, well, at least it's over in five minutes. With lightning talks, you're never stuck in some boring lecture for forty-five minutes. Still having trouble picking a topic, here are some suggestions: 1. Why my favorite module is X. 2. I want to do cool project X. Does anyone want to help? 3. Successful Project: I did project X. It was a success. Here's how you could benefit. 4. Failed Project: I did project X. It was a failure, and here's why. 5. Heresy: People always say X, but they're wrong. Here's why. 6. You All Suck: Here's what is wrong with the our community. 7. Call to Action: Let's all do more of X / less of X. 8. Wouldn't it be cool if X? 9. Someone needs to do X. 10. Wish List 11. Why X was a mistake. 12. Why X looks like a mistake, but isn't. 13. What it's like to do X. 14. Here's a useful technique that worked. 15. Here's a technique I thought would be useful but didn't work. 16. Why algorithm X sucks. 17. Comparison of algorithms X and Y.  Of course, you could give the talk on anything you wanted, whether or not it is on this list. If we get a full schedule of nothing but five minutes of ranting and raving on each topic, a good time will still be had by most. "
         title: Lightning Talks Round 1
       talk_url: http://yapc10.org/yn2009/talk/1821
     time: 01:00PM
@@ -1072,7 +1093,7 @@
       speaker: R Geoffrey Avery (rGeoffrey)
       speaker_url: http://yapc10.org/yn2009/user/232
       talk:
-        comment: " Why Would You Want to do a Lightning Talk? Maybe you've never given a talk before, and you'd like to start small. For a Lightning Talk, you don't need to make slides, and if you do decide to make slides, you only need to make three. Maybe you're nervous and you're afraid you'll mess up. It's a lot easier to plan and deliver a five minute talk than it is to deliver a long talk. And if you do mess up, at least the painful part will be over quickly. Maybe you don't have much to say. Maybe you just want to ask a question, or invite people to help you with your project, or boast about something you did, or tell a short cautionary story. These things are all interesting and worth talking about, but there might not be enough to say about them to fill up thirty minutes. Maybe you have a lot of things to say, and you're already going to give a long talk on one of them, and you don't want to hog the spotlight. There's nothing wrong with giving several Lightning Talks. Hey, they're only five minutes. On the other side, people might want to come to a lightning talk when they wouldn't come to a long talk on the same subject. The risk for the attendees is smaller: If the talk turns out to be dull, or if the person giving the talk turns out to be a really bad speaker, well, at least it's over in five minutes. With lightning talks, you're never stuck in some boring lecture for forty-five minutes. Still having trouble picking a topic, here are some suggestions: 1. Why my favorite module is X. 2. I want to do cool project X. Does anyone want to help? 3. Successful Project: I did project X. It was a success. Here's how you could benefit. 4. Failed Project: I did project X. It was a failure, and here's why. 5. Heresy: People always say X, but they're wrong. Here's why. 6. You All Suck: Here's what is wrong with the our community. 7. Call to Action: Let's all do more of X / less of X. 8. Wouldn't it be cool if X? 9. Someone needs to do X. 10. Wish List 11. Why X was a mistake. 12. Why X looks like a mistake, but isn't. 13. What it's like to do X. 14. Here's a useful technique that worked. 15. Here's a technique I thought would be useful but didn't work. 16. Why algorithm X sucks. 17. Comparison of algorithms X and Y.  Of course, you could give the talk on anything you wanted, whether or not it is on this list. If we get a full schedule of nothing but five minutes of ranting and raving on each topic, a good time will still be had by most. "
+        comment: " For the schedule is available see:R Geoffrey Avery (‎rGeoffrey‎) - ‎Lightning Talks Round 1‎ Why Would You Want to do a Lightning Talk? Maybe you've never given a talk before, and you'd like to start small. For a Lightning Talk, you don't need to make slides, and if you do decide to make slides, you only need to make three. Maybe you're nervous and you're afraid you'll mess up. It's a lot easier to plan and deliver a five minute talk than it is to deliver a long talk. And if you do mess up, at least the painful part will be over quickly. Maybe you don't have much to say. Maybe you just want to ask a question, or invite people to help you with your project, or boast about something you did, or tell a short cautionary story. These things are all interesting and worth talking about, but there might not be enough to say about them to fill up thirty minutes. Maybe you have a lot of things to say, and you're already going to give a long talk on one of them, and you don't want to hog the spotlight. There's nothing wrong with giving several Lightning Talks. Hey, they're only five minutes. On the other side, people might want to come to a lightning talk when they wouldn't come to a long talk on the same subject. The risk for the attendees is smaller: If the talk turns out to be dull, or if the person giving the talk turns out to be a really bad speaker, well, at least it's over in five minutes. With lightning talks, you're never stuck in some boring lecture for forty-five minutes. Still having trouble picking a topic, here are some suggestions: 1. Why my favorite module is X. 2. I want to do cool project X. Does anyone want to help? 3. Successful Project: I did project X. It was a success. Here's how you could benefit. 4. Failed Project: I did project X. It was a failure, and here's why. 5. Heresy: People always say X, but they're wrong. Here's why. 6. You All Suck: Here's what is wrong with the our community. 7. Call to Action: Let's all do more of X / less of X. 8. Wouldn't it be cool if X? 9. Someone needs to do X. 10. Wish List 11. Why X was a mistake. 12. Why X looks like a mistake, but isn't. 13. What it's like to do X. 14. Here's a useful technique that worked. 15. Here's a technique I thought would be useful but didn't work. 16. Why algorithm X sucks. 17. Comparison of algorithms X and Y.  Of course, you could give the talk on anything you wanted, whether or not it is on this list. If we get a full schedule of nothing but five minutes of ranting and raving on each topic, a good time will still be had by most. "
         title: Lightning Talks Round 2
       talk_url: http://yapc10.org/yn2009/talk/2104
     time: 01:50PM
